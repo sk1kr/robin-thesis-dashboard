@@ -1,0 +1,10 @@
+{
+  "name": "robin-thesis-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -R public/* dist/",
+    "dev": "python3 -m http.server 4173 --directory public",
+    "update-report": "node scripts/update-report.mjs"
+  }
+}

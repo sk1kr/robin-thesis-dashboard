@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Robin Thesis Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Robin Investment OS</p>
+        <h1>Thesis Dashboard</h1>
+      </div>
+      <div class="meta">
+        <span id="latest-date">-</span>
+        <span id="updated-at">업데이트 대기</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="dashboard-shell">
+        <aside class="date-panel" aria-label="날짜 목록">
+          <div class="panel-head">
+            <h2>날짜</h2>
+            <p>최신순</p>
+          </div>
+          <div id="date-list" class="date-list"></div>
+        </aside>
+
+        <section class="report-panel" aria-live="polite">
+          <article class="report-reader">
+            <div class="reader-head">
+              <div>
+                <h3 id="selected-title">리포트</h3>
+              </div>
+              <div id="slot-tabs" class="slot-tabs" role="tablist" aria-label="리포트 시간"></div>
+            </div>
+            <p id="selected-summary" class="summary"></p>
+            <div id="selected-markdown" class="markdown"></div>
+          </article>
+        </section>
+      </section>
+
+      <section class="status-strip">
+        <div class="section-head">
+          <h2>업데이트 상태</h2>
+          <p>09:00 장시작, 15:30 장마감, 22:00 신규 후보군</p>
+        </div>
+        <div id="status-grid" class="status-grid"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
