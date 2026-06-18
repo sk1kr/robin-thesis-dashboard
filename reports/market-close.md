@@ -4,7 +4,6 @@
 
 > 생성 시각은 2026-06-18 15:36 KST입니다.  
 > 한국 시간 기준 장마감 슬롯에 맞춰 전일 미국장, 당일 확인 뉴스, 보유/관심 종목의 최신 가격 흐름을 Robin Thesis OS v5.0 순서로 점검했습니다.
->
 > 판단 순서: `Money Flow -> Thesis -> Stock -> Timing`
 
 ## 1. Portfolio Status
