@@ -1,122 +1,73 @@
-# 2026-06-18 장시작 Thesis 리포트
+# 2026-06-22 장시작 Thesis 리포트
 
-목적: 장 시작 시점에 보유종목과 관심종목의 Thesis 상태, 밤사이 변화, 오늘의 우선 액션을 빠르게 결정한다.
+목적: 내가 가진 종목이 오늘도 들고갈 만한가?
 
-> 생성 시각은 2026-06-18 18:03 KST입니다. 실제 09:00 슬롯을 현재 시점 기준으로 소급 생성했으며, 판단 기준은 2026-06-17 미국장 마감과 2026-06-18 미국 프리마켓/아시아 오전 확인 기사입니다.
->
-> Robin Thesis OS v5.0 판단 순서: `Money Flow -> Thesis -> Stock -> Timing`
+> 오늘 결론: 오늘은 `AI 반도체/메모리/연결 병목`과 `Nasdaq-100 편입 수급`은 보유 우위지만, 지정학적 유가 리스크와 편입 당일 변동성 때문에 추격 매수보다 보유·확인 중심이다.
+> 지금 할 일: `CRDO`, `AVGO`, `TSM`, `NVDA`, `RMBS`, `ETN`은 보유하고, `RKLB`는 Nasdaq-100 편입 당일 수급 소멸 여부를 확인하며, `PLTR`, `NVTS`, `RGTI`, `IONQ`, `RXT`는 15:30에 가격/뉴스를 다시 본다.
+> 건드리지 말 것: `AGNC`, `CONY`, `DXYZ`, `XOVR`, `PL`, `SATL`은 반등만 보고 신규 매수하지 않는다. `RKLB`, `ALAB`, `ASTS`, `LITE`는 이벤트 직후 추격 금지다.
+> 가격 기준: 미국 주식시장은 2026-06-19 Juneteenth로 휴장했고 2026-06-22 재개장한다. 가격 판단은 2026-06-18 정규장 종가 및 2026-06-22 장전 확인 기사 기준이다.
+> 뉴스 기준: Nasdaq 공식 편입 공지, NYSE/시장 휴장 일정, IBD/MarketWatch/Barron's 장전 기사, 기업/IR성 발표를 우선 확인했다.
+> 미확인 항목: 전 종목의 정확한 20DMA/21EMA/50DMA 숫자, 2026-06-22 정규장 개장 후 실제 체결 수급, RKLB/ALAB 편입 후 패시브 매수 소화 여부는 15:30에 재확인해야 한다.
 
-## 1. Overnight Changes
+## 1. Overnight Money Flow
+- Money Flow: 미국장은 2026-06-19 휴장이었고 2026-06-22 재개장한다. 장전 핵심은 `AI 반도체`, `HBM/메모리`, `AI 연결 병목`, `Nasdaq-100 편입 수급`, `유가/지정학 리스크`다. IBD는 지난주 주요 지수가 상승했고 AI·반도체가 주도했지만, 일요일 밤 선물은 미-이란 긴장과 Hormuz 이슈로 약세였다고 정리했다.
+- Thesis: `NVDA`, `AVGO`, `TSM`, `CRDO`, `RMBS`의 AI 인프라 Thesis는 유지 또는 강화다. Micron 실적이 이번 주 AI 메모리 심리의 핵심 이벤트라 `RMBS`와 `DRAM`도 간접 확인 대상이다. `RKLB`는 2026-06-22 Nasdaq-100 편입이 실제 적용되는 날이라 수급 이벤트가 Thesis보다 앞설 수 있다.
+- Stock: 보유 종목 안에서는 `CRDO`, `AVGO`, `TSM`, `ETN`, `NVDA`, `RMBS`가 가장 깨끗한 표현이다. `RKLB`는 장기 우주 대표주 Thesis는 좋지만 오늘은 편입 당일 변동성 관리가 우선이다. `PLTR`, `GOOGL`, `TSLA`는 보유 가능하나 오늘의 신규 매수 우선순위는 아니다.
+- Timing: 2026-06-18 기준 `CRDO`, `AVGO`, `TSM`, `NVDA`, `RMBS`, `NVTS`, `ALAB`, `NVT`는 강한 반등/상승 흐름이 확인됐다. 반대로 `RKLB`, `PLTR`, `RXT`, `LITE`, `ASTS`는 변동성이 컸고 이벤트/고점 부담이 있어 장중 확인이 필요하다.
 
-### Money Flow
-
-| 테마 | 밤사이 자금 흐름 | 근거 | Robin 해석 |
+## 2. 보유 종목 Dashboard
+| 그룹 | 종목 | 액션 | 이유 |
 |---|---|---|---|
-| AI 네트워킹 | 유지 | Credo는 FY2026 Q4 매출 4.37억달러, 다음 분기 가이던스 4.70억달러를 제시했고, 시장은 마진 둔화는 반영했지만 매출 강도는 인정했다. | 돈은 여전히 AI 병목에 남아 있다. 다만 금리 충격 구간이라 추격은 금지다. |
-| AI 반도체 공급망 | 유지 | TSMC는 AI 수요 부족이 오래 지속될 것이라고 밝혔고 CoWoS 계열 패키징 우위도 유지 중이다. | TSM은 여전히 가장 직접적인 공급망 표현이다. |
-| 전력/그리드 | 유지~강화 | 데이터센터 전력 수요와 지역 전력 병목은 계속 확대되고 있다. | ETN, NVT 류 전력 인프라 Thesis는 여전히 상위다. |
-| 우주 인프라 | 선택적 유입 | RKLB는 2026-06-22 Nasdaq-100 편입이 예정돼 있고, 최근 backlog와 국방/발사 계약 강도도 좋다. | 우주 전체가 아니라 대표주 중심 자금이다. RKLB 우위, PL·SATL 열위다. |
-| 금리 민감 구조물 | 유출 | 2026-06-17 Fed 이후 10년물은 4.469%, 달러는 강세를 유지했다. | AGNC, CONY, DXYZ, XOVR은 Thesis보다 구조와 자금조달 환경이 먼저 문제다. |
+| 오늘 매수 가능 | 없음 | 신규 매수 보류 | 편입 당일, Juneteenth 이후 첫 거래일, 유가/지정학 리스크가 겹친다. 오늘은 좋은 종목도 장중 확인 후 판단한다. |
+| 보유만 | CRDO, AVGO, TSM, NVDA, ETN, RMBS, GOOGL, QQQM, VOO, SPYM, SPYG, SCHD, SGOV | Hold | AI 인프라, 반도체, 전력/그리드, 지수/현금성 배분 Thesis가 유지된다. 추격보다 보유가 맞다. |
+| 보유만 | RKLB | Hold, 추격 금지 | 2026-06-22 Nasdaq-100 편입 적용일이다. 우주 대표주 Thesis는 유지되지만 편입 수급 소멸 캔들 여부를 봐야 한다. |
+| 관찰만 | PLTR, NVTS, RGTI, IONQ, TSLA, RXT, GLW, ABCL, DRAM | Watch | Thesis는 일부 살아 있으나 가격 변동성, 멀티플, 실적/계약 지속성 확인이 먼저다. |
+| 축소 후보 | AGNC, CONY, DXYZ, XOVR, PL, SATL | Trim/Sell 후보 유지 | 금리 민감 구조, NAV/프리미엄, 현금흐름 약한 소형 우주주 리스크가 크다. 반등은 정리 기회로 본다. |
 
-### Thesis
+## 3. 오늘 반드시 확인할 가격/뉴스 트리거 5개
+1. `RKLB`: Nasdaq-100 편입 적용 후 장 초반 갭 상승을 유지하는지, 아니면 수급 소멸 매도가 나오는지 확인한다.
+2. `NVDA / AVGO / TSM`: 지난주 AI 반도체 반등이 이어지는지 확인한다. `NVDA`는 2026-06-18 기준 210.69달러, `AVGO`는 411.35달러, `TSM`은 462.12달러 부근을 기준으로 본다.
+3. `CRDO / RMBS / DRAM`: Micron 실적 기대와 HBM/메모리 공급 부족 논리가 유지되는지 확인한다. `CRDO`는 271.83달러, `RMBS`는 141.17달러 기준으로 장중 힘을 본다.
+4. `ETN / NVT`: 데이터센터 전력/냉각 자금이 계속 남는지 확인한다. `NVT`는 177.02달러 부근과 175 재돌파/지지 논리가 중요하다.
+5. `AGNC / CONY / DXYZ / XOVR`: 금리와 달러 강세가 완화되지 않으면 신규 매수 금지다. 반등 시 축소 후보로만 다룬다.
 
-| 구분 | 핵심 변화 | Thesis 판정 |
-|---|---|---|
-| 강화 | RKLB 편입 수급, CRDO 실적 강도, 전력/그리드 병목 지속 | 강화 유지 |
-| 유지 | TSM, ETN, PLTR, GOOGL, 주요 지수 ETF | 유지 |
-| 경고 | NVTS, NVDA, AVGO, RMBS는 사업은 괜찮지만 금리와 멀티플 부담이 더 커졌다 | `thesis OK, timing wait` |
-| 약화 | PL, SATL, AGNC, CONY, DXYZ, XOVR, RXT는 수급 또는 구조 리스크가 더 크다 | 약화 유지 |
-
-### Stock
-
-| Thesis 표현 수단 | 우선순위 | 이유 |
-|---|---|---|
-| CRDO / TSM / ETN / RKLB | 상 | AI 네트워킹, 반도체 병목, 전력 병목, 우주 대표성에 직접 노출된다. |
-| Harmony Drive / Yaskawa | 중상 | 로봇 자동화 자금 흐름은 유지되지만 새 수주/양산 확인이 더 필요하다. |
-| NVTS / NVDA / AVGO / RMBS | 중 | Thesis는 살아 있으나 지금은 종목보다 Timing 검증이 더 중요하다. |
-| AGNC / CONY / DXYZ / XOVR | 하 | 금리, 구조, NAV/프리미엄 문제가 먼저다. |
-
-### Timing
-
-| 구분 | 해석 | 액션 |
-|---|---|---|
-| 20일선 위 또는 지지형 | 보유 우위 | Hold |
-| 20일선 아래지만 Thesis 유효 | 타이밍 대기 | `thesis OK, timing wait` |
-| 20일선 아래 + 구조 리스크 동반 | 경고 강화 | Trim/Sell 검토 |
-
-## 2. Portfolio Thesis Dashboard
-
-| 종목 | 상태(강화/유지/주의/약화/제외) | Red Alert | 20일선 | Money Flow | 핵심 변화 | 오늘 액션 |
-|---|---|---|---|---|---|---|
-| CRDO | 강화 | No Alert | 위/상승 | AI 네트워킹 잔류 | FY2026 Q4 매출 4.37억달러, 다음 분기 4.70억달러 가이던스 확인 | Hold, 추격 금지 |
-| RKLB | 강화 | Yellow Alert | 아래/회복 대기 | 우주 대표주 선택 유입 | 2026-06-22 Nasdaq-100 편입 예정, backlog 확대 | `thesis OK, timing wait` |
-| Harmony Drive | 유지 | No Alert | 위/우상향 추정 | 로봇 자동화 유지 | 밤사이 Thesis를 꺾는 새 악재 없음 | Hold |
-| Yaskawa | 유지 | No Alert | 위/둔화 | 로봇 자동화 유지 | 로봇 자금 흐름 유지, 새 기업별 촉매는 제한적 | Hold |
-| TSM | 유지 | No Alert | 위/둔화 | AI 반도체 병목 잔류 | AI 수요 부족 지속 발언, CoWoS 우위 유지 | Hold |
-| ETN | 유지 | No Alert | 위/둔화 | 전력/그리드 잔류 | 데이터센터 전력 병목과 전력 인프라 투자 논리 유지 | Hold |
-| PLTR / GOOGL | 유지 | No Alert | 근접 | 플랫폼/소프트웨어 잔류 | 밤사이 Thesis를 바꿀 신규 악재 없음 | Hold |
-| NVTS | 주의 | Yellow Alert | 아래/회복 대기 | 전력반도체 관심 유지 | 전력반도체 Thesis는 유효하지만 금리 민감도가 부담 | `thesis OK, timing wait` |
-| NVDA / AVGO | 주의 | Yellow Alert | 아래/회복 대기 | AI 메가캡 잔류 | 수요는 유효하지만 Fed 이후 멀티플 압축 부담 | `thesis OK, timing wait` |
-| RMBS | 주의 | Yellow Alert | 아래/회복 대기 | 메모리 병목 관심 유지 | 사업 Thesis는 유지되지만 가격 확증이 부족 | `thesis OK, timing wait` |
-| RGTI / IONQ | 주의 | Yellow Alert | 아래/변동성 큼 | 양자 투기성 유입 | 테마는 살아 있으나 변동성이 Thesis를 압도 | Watch |
-| QQQM / VOO / SPYM / SPYG / SCHD / SGOV | 유지 | No Alert | 지수 기준 유지 | 자산배분 유지 | 개별 종목 Thesis보다 배분 역할이 우선 | Hold |
-| PL / SATL | 약화 | Red Alert | 아래/하락 | 우주 소형주 유출 | 우주 자금은 대표주 RKLB로 쏠림, 현금흐름 부담 | Trim 검토 |
-| AGNC / CONY | 약화 | Red Alert | 아래/둔화 | 금리 민감 구조물 유출 | 금리 상승이 NAV/분배 지속성 리스크로 연결 | Trim/Sell 검토 |
-| DXYZ / XOVR | 약화 | Red Alert | 아래/불안정 | 비상장 노출 약화 | NAV 대비 프리미엄/유동성 리스크가 더 큼 | Trim/Watch |
-| RXT | 약화 | Red Alert | 아래/약세 | 턴어라운드 자금 유입 제한 | 본업 회복 Thesis를 확정할 새 데이터 부족 | 축소 우선 |
-
-## 3. Watch List
-
-| 종목 | 테마 | Watch 이유 | 트리거 | 실패 조건 |
-|---|---|---|---|---|
-| LITE | AI 광통신 | CRDO 외 병목 확장 후보 | 20일선 지지 후 재가속 | 20일선 재이탈 |
-| CIEN | AI 네트워킹 | 외부 광네트워크 수혜 후보 | 실적 갭 회복 + 거래량 | 갭 저항 재실패 |
-| NVT | 전력/냉각 | 데이터센터 전력 병목의 직접 수혜 | 20일선 또는 21EMA 반등 확인 | 50일선 이탈 지속 |
-| ASTS | 우주 통신 | 우주 테마 내 비대칭 후보 | 운영·상용화 확인 + 20일선 회복 | 일정 지연, 추가 희석 |
-| QBTS | 양자 | 돈은 들어오지만 과열 리스크 큼 | 급등 뒤 수렴, 20일선 재정렬 | 희석, 20일선 회복 실패 |
-
-## 4. 20-Day Moving Average Review
-
-> 정확한 20일선 숫자는 이번 런에서 전 종목 독립 전수 검증을 하지 못했습니다. 아래 평가는 2026-06-17 종가, 프리마켓 기사, 최근 차트 상태를 기준으로 `위/근접/아래`만 판정했습니다.
-
-| 구간 | 종목 | 해석 |
-|---|---|---|
-| 위 | CRDO, Harmony Drive, Yaskawa, TSM, ETN, 주요 지수 ETF | 보유 논리가 유지되는 자리다. |
-| 근접 | PLTR, GOOGL | 사업 Thesis는 무난하지만 공격적 추가매수 타점은 아니다. |
-| 아래, Thesis 유효 | RKLB, NVTS, NVDA, AVGO, RMBS, RGTI, IONQ | 사업 논리는 살아 있으나 타이밍은 기다려야 한다. |
-| 아래, 구조 경고 | PL, SATL, AGNC, CONY, DXYZ, XOVR, RXT | 20일선보다 Thesis 자체를 더 엄격히 봐야 한다. |
-
-## 5. Red Alert / Yellow Alert / No Alert
-
-| 경보 단계 | 종목 | 이유 | 대응 |
+## 4. 단기 추세선 / Alert
+| 종목 | 단기 추세선 | Alert | 액션 |
 |---|---|---|---|
-| Red Alert | PL, SATL, AGNC, CONY, DXYZ, XOVR, RXT | 현금흐름, 구조, 프리미엄, 금리 민감도, 추세 약화가 겹친다 | 반등 시 축소 또는 제외 검토 |
-| Yellow Alert | RKLB, NVTS, NVDA, AVGO, RMBS, RGTI, IONQ | Thesis는 괜찮지만 Timing이 약하다 | `thesis OK, timing wait` |
-| No Alert | CRDO, Harmony Drive, Yaskawa, TSM, ETN, PLTR, GOOGL, QQQM, VOO, SPYM, SPYG, SCHD, SGOV | 사업 Thesis와 자리 훼손이 상대적으로 적다 | 핵심 보유 유지 |
+| CRDO | 강한 상승 추세, 정확한 20DMA 미확인 | 과열/멀티플 부담 | Hold, 신규 추격 금지 |
+| AVGO | AI ASIC/인프라 강세 지속 | 단기 급등 후 변동성 | Hold |
+| TSM | AI 공급망 핵심 지위 유지 | 대만/지정학 리스크 | Hold |
+| NVDA | 2026-06-18 강한 반등 | Micron 실적 전후 변동성 | Hold, 추가매수는 장중 확인 |
+| RMBS | 메모리 병목 수혜로 반등 | Micron 이벤트 의존도 | Hold/Watch |
+| RKLB | 편입 당일 이벤트 구간 | 수급 소멸 캔들 위험 | Hold, 추격 금지 |
+| NVTS | 전력반도체 관심 재유입 | 소형 고베타 변동성 | Watch |
+| PLTR | 장기 AI 소프트웨어 Thesis 유지 | 멀티플 부담, 단기 상대 약세 | Hold/Watch |
+| RXT | AMD AI 인프라 계약 이후 재평가 시도 | 실적/현금흐름 검증 전 | Watch only |
+| AGNC / CONY | 금리 민감 구조 | NAV/분배 리스크 | Trim/Sell 후보 |
+| PL / SATL | 우주 소형주 | 자금은 RKLB 대표주로 집중 | Trim 후보 |
 
-## 6. 오늘의 우선순위
+## 5. 보유 Thesis에 영향을 줄 외부 Watch 후보
+- `ALAB`: 2026-06-22 Nasdaq-100 편입 적용. AI connectivity 병목 수급을 보되 보유주가 아니므로 추격 금지.
+- `LITE`: AI 광통신 병목 후보. 850달러 부근 기준으로 20DMA/21EMA 지지 확인 전 매수 금지.
+- `NVT`: 데이터센터 전력/냉각 단일주 후보. 175 이상 유지와 거래량을 확인한다.
+- `ASTS`: BlueBird 8~10 발사 성공 이후 직접위성통신 후보로 부상했지만 이벤트 직후 변동성이 매우 크다.
+- `CIEN`: AI 외부 광네트워크 후보. 실적 갭과 20DMA 회복 여부가 먼저다.
 
-| 우선순위 | 종목/그룹 | 판단 | 이유 |
-|---:|---|---|---|
-| 1 | CRDO | 핵심 보유 | Money Flow, Thesis, Timing이 가장 잘 정렬된 편이다. |
-| 2 | TSM / ETN | 핵심 보유 | 금리 역풍 속에서도 구조적 병목 지위가 유지된다. |
-| 3 | RKLB / NVTS / RMBS | 관찰 강화 | Thesis는 살아 있으나 오늘은 `thesis OK, timing wait` 구간이다. |
-| 4 | Harmony Drive / Yaskawa | 보유 유지 | 로봇 흐름은 유지되지만 새 수주/양산 확인 전 추격 금지다. |
-| 5 | PL / SATL / AGNC / CONY / DXYZ / XOVR / RXT | 축소 후보 점검 | 사업보다 구조와 자금 흐름이 더 나쁘다. |
+## 6. 15:30에 확인할 질문
+| 질문 | 확인 이유 | 관련 종목 |
+|---|---|---|
+| RKLB 편입 수급이 장 초반 이후에도 유지됐나? | 편입 이벤트가 장기 대표주 Thesis를 강화하는지, 단기 소멸인지 구분해야 한다. | RKLB |
+| AI 반도체/메모리 반등이 이어졌나? | Micron 실적 전 기대가 `NVDA`, `AVGO`, `TSM`, `RMBS`, `DRAM`에 번지는지 확인한다. | NVDA, AVGO, TSM, RMBS, DRAM |
+| CRDO가 강한 가격을 유지하나? | AI 연결 병목의 핵심 보유주라 포트폴리오 중심축이다. | CRDO |
+| 금리/달러/유가가 위험자산을 압박하나? | 고멀티플 성장주와 AGNC/CONY 같은 구조 상품 판단에 직접 영향이 있다. | AGNC, CONY, PLTR, TSLA |
+| Watch 후보가 보유 Thesis를 바꿀 만큼 강했나? | 신규 후보 발굴은 22:00 역할이지만, 15:30에서 넘길 후보를 골라야 한다. | ALAB, LITE, NVT, ASTS, CIEN |
 
-## 7. 한 줄 결론
-
-오늘 09:00 기준의 핵심은 `좋은 Thesis와 좋은 Timing을 분리하는 것`이다. CRDO, TSM, ETN, 로봇 핵심주는 보유 우위이고, RKLB·NVTS·NVDA·AVGO·RMBS는 `thesis OK, timing wait`, PL·SATL·AGNC·CONY·DXYZ·XOVR·RXT는 경고 우선이다.
-
-## 8. 확인한 근거 링크
-
-- [AP: 2026-06-17 미국장 지수 마감](https://apnews.com/article/c5c1c0551c4fae25ef2c6bda73638e70)
-- [WSJ: 2026-06-17 Fed 이후 주가와 금리 반응](https://www.wsj.com/finance/stocks/global-stocks-markets-dow-update-06-17-2026-05228bac)
-- [WSJ: 2026-06-18 미국 지수선물 반등과 유가 하락](https://www.wsj.com/finance/stocks/treasurys-stock-futures-rebound-on-u-s-iran-agreement-fed-reaction-512ef8ce)
-- [MarketWatch: 2026-06-17 10년물 4.469%](https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-federal-reserve-meeting-interest-rate-decision-14-point-plan/card/treasury-yields-move-sharply-higher-after-fed-signals-at-least-one-rate-hike-this-year-ZE31shFvSRcRm9m0NmVt)
-- [WSJ: 2026-06-18 달러 강세 지속과 아시아 통화 부담](https://www.wsj.com/finance/currencies/asian-currencies-consolidate-may-be-weighed-by-fed-rate-hike-expectations-50220365)
-- [Barron's: RKLB 2026-06-22 Nasdaq-100 편입](https://www.barrons.com/articles/rocket-lab-stock-joining-nasdaq-058ed32f)
-- [MarketWatch: Rocket Lab backlog와 성장 해석](https://www.marketwatch.com/story/rocket-labs-stock-rises-upon-new-signs-its-business-is-expanding-rapidly-dc7abdfc)
-- [IBD: Credo FY2026 Q4 실적과 가이던스](https://www.investors.com/news/technology/credo-stock-crdo-fiscal-q4-2026-earnings/)
-- [Tom's Hardware: TSMC의 AI 수요·CoWoS 우위 코멘트](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-says-panel-packaging-wont-replace-cowos-anytime-soon-for-the-largest-future-ai-processors-wafer-level-tech-can-scale-to-58-massive-dies-in-one-package)
-- [Business Insider: 미국 데이터센터 전력 수요 확대](https://www.businessinsider.com/us-ai-data-center-power-electricity-use-consumption-2026-6)
+## 7. 확인한 근거 링크
+- [NYSE: 2026-06-19 Juneteenth 휴장 일정](https://www.nyse.com/trade/hours-calendars)
+- [Yahoo Finance: Juneteenth 이후 2026-06-22 재개장](https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-juneteenth-heres-the-holiday-trading-schedule-in-2026-210239142.html)
+- [Nasdaq: 2026-06-22 Nasdaq-100 편입/제외 종목](https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-100-indexr-june-2026-quarterly-changes)
+- [Rocket Lab: Nasdaq-100 편입 공식 발표](https://www.globenewswire.com/news-release/2026/06/12/3310939/0/en/rocket-lab-to-join-the-nasdaq-100-index.html)
+- [IBD: 2026-06-22 장전 선물, AI/반도체, Micron 이벤트](https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-us-iran-talks-hormuz-nvidia-spacex-micron/)
+- [MarketWatch: Micron 실적과 AI 메모리 이벤트](https://www.marketwatch.com/story/microns-earnings-are-a-must-watch-market-event-with-profit-growth-approaching-1-000-78ec4549)
+- [Spaceflight Now: AST SpaceMobile BlueBird 8~10 배치 확인](https://spaceflightnow.com/2026/06/16/live-coverage-spacex-to-launch-3-block-2-bluebird-satellites-for-ast-spacemobile/)
+- [Satellite Today: AST SpaceMobile 임무 성공 확인](https://www.satellitetoday.com/launch/2026/06/17/spacex-launches-3-ast-spacemobile-bluebirds-in-stacked-mission/)
