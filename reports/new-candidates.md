@@ -1,119 +1,132 @@
-# 2026-06-18 신규 Thesis 후보군 리포트
+# 2026-06-22 신규 Thesis 후보군 리포트
 
 목적: 아직 안 샀지만 미래의 PLTR, AVGO, RKLB 찾기.
 
-> 가격과 20일선 평가는 2026-06-18 KST 기준 확인 가능한 최신 기사, IR, 공식 발표를 사용했다. 실시간 시세 API가 없는 항목은 확인 날짜를 함께 적었고, 정확한 당일 종가는 매수 전 재확인이 필요하다.
+> 오늘 결론: 22:00 신규 후보의 핵심은 `AI 연결 병목(ALAB/LITE/ANET)`과 `데이터센터 전력·냉각(NVT/VRT)`이지만, 대부분 단기 추세선 위로 과열되어 오늘은 후보 등록·타점 대기만 한다.
+> 지금 할 일: `ALAB`, `NVT`, `LITE`, `ANET`, `VRT`를 다음 09:00 Watch 상단에 올리고, 20DMA/21EMA 눌림 또는 거래량 동반 재돌파 조건만 추적한다.
+> 건드리지 말 것: `CRWV`, `NBIS`, `TER`, `ASTS`, `QBTS`는 지수 편입·뉴스·테마 반등만 보고 추격하지 않는다.
+> 가격 기준: 미국 후보와 ETF는 yfinance 일봉 기준 2026-06-22 정규장 최신 OHLC로 20DMA/21EMA/50DMA를 계산했다.
+> 뉴스 기준: 2026-06-22 22:00 KST 기준 최근 1개월의 Nasdaq 공식 편입 공지, 기업 IR/보도자료, KRX/KIND·연합뉴스 ETF 신규상장 검색 결과를 우선 확인했다.
+> 미확인 항목: 국내 KRX 공시 원문에서 2026-06-23 신규 ETF 상장 목록을 직접 열람하지 못했고, 일부 후보의 장중 수급 주체·실시간 호가·옵션 포지션은 미확인이다.
 
-## 1. 오늘의 후보 선정 기준
-- 주도 테마: AI 광통신 병목, AI 데이터센터 전력/냉각, 우주 인프라, 양자, 물류 로봇
-- 병목 지점: 광모듈/광네트워킹, 데이터센터 액체냉각과 전력 연결, 직접위성통신, 양자 상용화 초기 고객 확보
-- 제외한 후보: 이미 보유 중인 PLTR, AVGO, RKLB, CRDO, RMBS, IONQ, RGTI는 이번 후보군에서 제외
+## 1. 09:00/15:30에서 넘어온 후보
 
-## 2. 숨은 보석 후보
+| 후보 | 넘어온 이유 | 심화 결과 |
+|---|---|---|
+| ALAB | Nasdaq-100 신규 편입, AI connectivity 병목 | Thesis는 가장 깨끗하지만 20DMA 대비 +24.0%라 오늘 매수 금지. 21EMA 근처 눌림 또는 새 베이스 형성 대기. |
+| CRWV | Nasdaq-100 신규 편입, AI GPU cloud | Money Flow는 강하지만 단일 고객/CapEx/마진 검증 부담이 크고 편입 이벤트 직후 변동성이 높아 Top 5 제외. |
+| NBIS | Nasdaq-100 신규 편입, AI cloud infrastructure | 20DMA 대비 +17.3%, 50DMA 대비 +41.7%로 과열. AI 인프라 수급 신호로만 사용. |
+| TER | Nasdaq-100 신규 편입, 반도체 테스트/로봇 | AI 패키징 테스트 Thesis는 좋지만 20DMA 대비 +16.6%라 추격 금지. |
+| LITE | AI 광통신/photonic bottleneck | 20DMA 부근(-0.6%)까지 식은 후보라 Top 5에 유지. 단, 50DMA 아래라 회복 확인형. |
+| NVT | AI 데이터센터 전력·액체냉각 | 수주/백로그 근거가 강하고 구조적 수요가 명확하나 20DMA 대비 +9.2%라 눌림 대기. |
+| ASTS | 직접위성통신 | 20DMA 대비 -26.5%로 이벤트 실패/수급 이탈 가능성. 우주 Thesis는 RKLB 보유로 충분하므로 신규 제외. |
+| CIEN | AI 외부 광네트워크 | 사업 Thesis는 유지되지만 20DMA 대비 -9.8%, 50DMA 대비 -11.6%라 timing wait. |
 
-| 종목 | 테마 | CRDO/RMBS류 병목성 | Thesis 점수 | 현재가 | 20일선 세팅 | 진입 타점 | Risk/Reward | 리스크 |
-|---|---|---|---:|---|---|---|---|---|
-| LITE | AI 광통신 | 높음. 광부품/트랜시버 병목 | 9.2 | $873.74 (2026-06-12 기사 기준) | 6월 초 고점 대비 15% 안팎 조정. 21일선/단기 지지 재확인 구간 | $900 재돌파 + 거래량 증가, 또는 21일선 지지 확인 후 분할 | 1:3 이상 가능 | CPO 도입 지연, 밸류에이션 부담 |
-| CIEN | AI 네트워킹 | 높음. 데이터센터 외부 광네트워크 병목 | 8.8 | $529.22 (2026-06-04 종가 기사 기준) | 실적 후 갭하락으로 20일선 이탈 추정. 회복 확인 필요 | 갭 하단 회복, $560 안착 확인 후 | 1:3 가능하나 확인형 진입만 | 기대치 과열, 공급제약, 고점 매물 |
-| NVT | 전력/냉각 | 중상. AI 데이터센터 액체냉각/전력 연결 | 8.7 | 실시간 종가 미확인, IBD 기준 175 매수포인트 추적 필요 | 21일 EMA와 50일선 위 지지형 셋업 | 175 돌파 또는 21일선 눌림목 반등 | 1:3 양호 | 과열 이후 눌림 실패, 산업재 멀티플 압축 |
-| ASTS | 우주 통신 | 중상. 직접위성통신 상용화 레버리지 | 8.1 | 2026-06-17 프리마켓 +5.1% 확인, 종가 재확인 필요 | 4월 실패 이후 뉴스성 반등. 20일선 회복 여부가 핵심 | 위성 정상작동 확인 + 20일선 회복 시 | 성공 시 매우 크지만 변동성 큼 | 발사/운용 실패, 자본조달 |
-| QBTS | 양자 | 중간. 양자 어닐링 상용화 선두 | 7.6 | $27 (2026-06-15 기사 기준) | 단기 급등으로 20일선 이격 가능성 큼 | 급등 추격 금지, 20일선 또는 3주 수렴 대기 | 잘 맞으면 1:4, 실패 시 손실 큼 | 희석, 과열, 상용화 속도 |
+## 2. New Thesis Candidates
 
-## 3. 테마별 후보
+| 순위 | 종목 | 왜 미래의 PLTR/AVGO/RKLB 후보인가 | 역할 | 판단 |
+|---:|---|---|---|---|
+| 1 | ALAB | AI 클러스터가 커질수록 GPU보다 먼저 병목이 되는 rack-scale 연결 반도체를 장악할 수 있어 AVGO형 인프라 병목 후보가 된다. | 단독주 / AI connectivity silicon | `강화`, watch to buy |
+| 2 | NVT | AI 데이터센터가 전력·냉각·enclosure 병목으로 이동할 때 실제 발주와 백로그가 따라오는 산업재형 AVGO 후보가 된다. | 단독주 / power·cooling | `강화`, buy on setup |
+| 3 | LITE | Nvidia·hyperscaler optical interconnect 전환에서 레이저/광부품 병목을 잡으면 CRDO 다음 단계의 AVGO형 부품주가 될 수 있다. | 단독주 / optical networking | `유지→강화 후보`, timing wait |
+| 4 | ANET | AI fabric이 데이터센터 OS처럼 표준화되면 네트워크 장비·소프트웨어 레이어를 함께 장악하는 PLTR/AVGO 혼합형 후보가 된다. | 단독주 / AI networking | `강화`, watch |
+| 5 | VRT | AI factory의 전력·thermal block을 공급하는 물리 인프라 표준주가 되면 RKLB처럼 테마 대표성 프리미엄을 받을 수 있다. | 단독주 / power·thermal | `유지`, watch not chase |
 
-| 테마 | 후보 | Thesis | 현재가 | 타점 | 리스크 |
-|---|---|---|---:|---|---|
-| AI 광통신 | LITE | Nvidia 협업, 광부품 공급 병목, 마진 상향 | $873.74 (2026-06-12) | $900 재돌파 또는 21일선 눌림 | CPO 일정 지연 |
-| AI 광네트워킹 | CIEN | hyperscaler AI 트래픽 확장 수혜, 대형 수주 | $529.22 (2026-06-04) | 실적 갭 회복 후 | 기대치 과열 해소 필요 |
-| 전력/냉각 | NVT | 액체냉각, 전력 연결, backlog 확대 | 종가 재확인 필요 | 175 돌파 또는 21EMA 반등 | 밸류에이션/경기민감 |
-| 로봇 | SYM | Walmart 외 고객 다변화가 핵심. 자동화 침투율 장기 확장 | 종가 재확인 필요 | 신규 고객 확대 + 20일선 회복 시 | 고객 집중도 |
-| 우주 | ASTS | 직접위성통신 위성 수 증가가 곧 Thesis | 종가 재확인 필요 | 위성 정상작동 확인 후 | 발사/자본 조달 |
-| 양자 | QBTS | 어닐링 상용화 + 게이트모델 로드맵 병행 | $27 (2026-06-15) | 급등 후 수렴 대기 | 희석/투기성 |
+ETF 후보는 단일주 매수 근거가 아니라 money-flow 신호로만 본다. `SMH`, `AIQ`, `PAVE`, `GRID`, `QTUM`은 테마 수급 확인용이며 신규 단독주 Top 5에는 넣지 않는다.
 
-## 4. ETF
+## 3. Money Flow
 
-| ETF | 테마 | 현재가 | 장점 | 단점 | 적합도 |
-|---|---|---:|---|---|---|
-| QTUM | 양자+AI | 종가 재확인 필요 | 단일 종목 리스크 완화, 양자/머신러닝 묶음 | 순수 양자 농도는 낮음 | 중상 |
-| UFO | 우주 | 종가 재확인 필요 | SpaceX 기대감과 우주 바스켓 분산 | 이벤트 드리븐 변동성 큼 | 중 |
-| BOTZ | 로봇/자동화 | 종가 재확인 필요 | 로봇 자동화 전반 접근 | 테마 희석 가능 | 중 |
-| PAVE | 전력/인프라 | 종가 재확인 필요 | 전력망/산업 인프라에 넓게 노출 | AI 직접 레버리지는 약함 | 중 |
+- 오늘/내일 자금이 향할 가능성이 큰 테마: `AI connectivity`, `AI optical networking`, `data center power/cooling`, `advanced semiconductor test`, `Nasdaq-100 AI 편입주`.
+- 근거: Nasdaq-100 2026년 6월 리밸런싱에서 ALAB·CRWV·NBIS·RKLB·TER가 편입되며 AI compute/connectivity/space money-flow가 확인됐다. Arista는 1.6T AI fabric 제품군을 발표했고, nVent는 Q1 2026 organic orders 약 +40%와 $2.6B backlog를 제시했다.
+- 제외할 과열/뉴스성 흐름: 편입 당일 `ALAB`, `NBIS`, `TER` 추격, 20DMA를 크게 이탈한 `ASTS`, 수익성/현금흐름 검증 전 `CRWV`·`NBIS` chasing, 단기 급등 후 수렴 없는 `QBTS`.
 
-## 5. Watchlist Top5
+## 4. Tomorrow ETF Launches
 
-| 순위 | 종목 | Thesis 점수 | 진입 조건 | Kill Condition |
-|---:|---|---:|---|---|
-| 1 | LITE | 9.2 | 21일선 지지 확인 후 재상승 또는 $900 재돌파 | Nvidia 광통신 수요 둔화, 20일선 회복 실패 지속 |
-| 2 | CIEN | 8.8 | 실적 갭 회복, $560 부근 안착, 거래량 동반 | AI 네트워킹 가이던스 둔화, 갭 저항 재실패 |
-| 3 | NVT | 8.7 | 175 돌파 또는 21EMA 지지 반등 | 액체냉각 성장 둔화, 50일선 이탈 지속 |
-| 4 | ASTS | 8.1 | BlueBird 위성 정상작동 확인 + 20일선 회복 | 위성 운용 문제, 추가 자금조달 악화 |
-| 5 | QBTS | 7.6 | 급등 후 20일선 근처 수렴 | 희석/내부자 매도 확대, 상용화 지연 |
+| ETF | 운용사 | 테마 | 상장일 | 주요 보유/대표 종목 | Thesis Score | 예상 자금 흐름 |
+|---|---|---|---|---|---:|---|
+| 없음 | 없음 | 없음 | 2026-06-23 | 없음 | 0 | KRX/KIND·연합뉴스·국내 ETF 신규상장 검색에서 6월 23일 신규 ETF 상장 공지를 확인하지 못했다. 최근 확인된 신규 ETF 공지는 6월 16일 국내 우주항공 등 3종, 6월 9일 현대차·기아 채권혼합 등 3종이었다. |
 
-## 6. 우선순위
-- 적극 검토: LITE, CIEN, NVT
-- 관찰: ASTS, SYM, QTUM, UFO
-- 제외: 지금 자리에서 QBTS 추격매수, 뉴스만 보고 우주 소형주 무분별 진입
+확인 기준: `site:kind.krx.co.kr 신규상장 ETF 2026년 6월 23일`, `한국거래소 2026년 6월 23일 ETF 신규상장`, 연합뉴스 ETF 신규상장 기사 검색을 사용했다. 공식 상장공시가 뒤늦게 게시될 수 있으므로 내일 09:00에 KRX ETF 신규상장 공시를 한 번 더 확인한다.
 
-## 7. Robin OS 판단
+## 5. ETF Holdings Reverse Analysis
 
-### 1) Lumentum (LITE)
-- 강화 요인:
-  - 2026-05-05 분기 실적에서 매출 $808.4M, EPS $2.37, 6월 분기 가이던스 매출 $980M을 제시했다.
-  - Nvidia의 광통신 투자와 CPO/NPO 전환 논리가 이어지고 있다.
-  - 6월 중순 조정 이후 JPMorgan은 최근 하락을 매수 기회로 해석했다.
-- Robin OS 판단:
-> Watch to Buy - 추세 자체는 강하지만 급등 후 첫 눌림이라 21일선 지지 확인이 먼저다.
-- 체크포인트: cloud transceiver ramp, 200G/차세대 광부품 생산 병목 해소, gross margin 유지
-- Kill Condition: 21일선 회복 실패 후 고점 대비 하락폭 확대
+- 반복 편입 종목: 미국 AI/반도체 ETF money-flow는 `NVDA`, `AVGO`, `TSM`, `AMD`, `MRVL`, `ANET`, `ALAB`, `VRT` 쪽으로 반복될 가능성이 높다. 보유주인 `AVGO`, `TSM`, `NVDA`, `CRDO`, `RMBS`는 신규 후보 랭킹에서 제외했다.
+- 직접 수혜: `ALAB`(AI connectivity), `ANET`(AI fabric switching), `LITE`(optical/photonic components), `NVT`·`VRT`(power/cooling).
+- 2차 수혜: `FIX`(데이터센터 기계·전기 시공), `TER`(AI chiplet/test), `CIEN`(data center interconnect/metro optical), `PAVE`·`GRID` 구성 전력 인프라 종목.
+- ETF가 단일주보다 나은 경우: AI 반도체 방향은 맞지만 특정 병목 승자를 고르기 어렵다면 `SMH`; 전력망·인프라 수급만 확인하려면 `PAVE` 또는 `GRID`; 로봇은 `BOTZ`, 양자는 `QTUM`이 단일주 변동성을 낮춘다.
 
-### 2) Ciena (CIEN)
-- 강화 요인:
-  - 2026-06-04 분기 실적에서 매출 $1.57B, 조정 EPS $1.64, 연간 매출 가이던스 $6.3B로 상향.
-  - Optical networking 매출이 $1.10B로 전년 대비 크게 늘었다.
-  - hyperscaler의 AI 트래픽이 데이터센터 내부뿐 아니라 외부 네트워크까지 확장되는 흐름에 직접 노출.
-- Robin OS 판단:
-> Watch - 사업은 좋지만 실적 후 갭다운이 20일선 이탈 신호일 가능성이 있어 회복 확인이 필요하다.
-- 체크포인트: 다음 분기 가이던스, hyperscaler 수주 지속, 갭 회복 여부
-- Kill Condition: 갭하락 이후 20일선/갭저항 동시 회복 실패
+## 6. Top 후보 Dashboard
 
-### 3) nVent (NVT)
-- 강화 요인:
-  - AI 데이터센터 액체냉각과 전력 연결 수요가 backlog를 밀어올리고 있다.
-  - IBD 기준 2026년 들어 60% 이상 상승했지만 21일 EMA와 50일선 위에서 shelf 패턴을 형성 중이다.
-  - 175 매수포인트가 명확해 타점 관리가 상대적으로 쉽다.
-- Robin OS 판단:
-> Buy on Setup - 전력 인프라/냉각이라는 병목 포지션이 명확하고, 차트도 추격보다 셋업 매수가 가능한 편이다.
-- 체크포인트: liquid cooling 매출 비중, 175 돌파 거래량, backlog 유지
-- Kill Condition: 50일선 하향 이탈과 backlog 둔화 동시 발생
+| 종목 | Thesis Score | 단기 추세선 | 진입 조건 | Why Not Buy Today |
+|---|---:|---|---|---|
+| ALAB | 86 | 20DMA 354.66, 21EMA 347.09, 50DMA 264.23; 종가 439.66으로 20DMA 대비 +24.0% | 21EMA 근처 눌림 후 거래량 감소, 또는 3주 이상 베이스 후 고점 재돌파 | 편입 수급과 AI hype가 겹친 과열 구간이라 risk/reward가 1:3 미만이다. |
+| NVT | 84 | 20DMA 168.75, 21EMA 168.25, 50DMA 158.63; 종가 184.34로 20DMA 대비 +9.2% | 175~169 구간 눌림 지지 또는 185 재돌파+거래량 증가 | 좋은 Thesis지만 20DMA 위 이격이 있어 손절선을 가까이 두면 흔들릴 가능성이 높다. |
+| LITE | 80 | 20DMA 899.23, 21EMA 897.06, 50DMA 905.57; 종가 893.93으로 20DMA 대비 -0.6% | 900~906 회복 후 종가 안착, 또는 50DMA 재탈환 | 아직 50DMA 아래라 반등 실패 시 AI optical leader가 아니라 dead-cat bounce가 될 수 있다. |
+| ANET | 82 | 20DMA 162.40, 21EMA 161.87, 50DMA 159.11; 종가 174.56으로 20DMA 대비 +7.5% | 165~162 눌림 또는 175 이상 거래량 동반 추세 지속 | 이미 우량 대형주 프리미엄이 붙어 있어 폭발력은 ALAB/LITE보다 낮을 수 있다. |
+| VRT | 79 | 20DMA 315.34, 21EMA 318.73, 50DMA 322.94; 종가 357.96으로 20DMA 대비 +13.5% | 330~323 눌림 지지 또는 신규 수주/가이던스 동반 돌파 | 20DMA·50DMA 모두에서 멀어져 있고 데이터센터 oversupply 논쟁에 멀티플이 흔들릴 수 있다. |
 
-### 4) AST SpaceMobile (ASTS)
-- 강화 요인:
-  - 2026-06-17 SpaceX가 BlueBird 위성 3기를 성공적으로 궤도에 올렸고, 연말 45기 목표가 다시 살아났다.
-  - AT&T/Verizon 등 통신사 파트너십과 직접위성통신 스토리는 여전히 희소하다.
-- Robin OS 판단:
-> Watch - 재료는 강하지만 아직 기술적 회복과 위성 정상작동 확인이 선행되어야 한다.
-- 체크포인트: 위성 운용 확인, 추가 발사 일정, 상용화 타임라인
-- Kill Condition: 위성 이상, 추가 지연, 희석성 자금조달
+### Top 후보 상세: Risk/Reward, Kill Condition, Catalysts
 
-### 5) D-Wave Quantum (QBTS)
-- 강화 요인:
-  - 2026-06-15 주가가 $27까지 급등했고, analyst day 이후 목표가 상향이 나왔다.
-  - 게이트모델 로드맵을 제시하며 단순 어닐링 회사에서 플랫폼 확장 스토리로 이동 중이다.
-- Robin OS 판단:
-> Watch Only - 스토리는 좋아졌지만 지금 자리는 추격매수 리스크가 너무 크다.
-- 체크포인트: 상업 고객 증가, gate-model roadmap 구체화, 희석 여부
-- Kill Condition: 고점 급락 후 20일선 회복 실패, 추가 희석
+- ALAB: Risk/Reward는 21EMA 근처 진입 시 1:3 가능, 현재가는 1:2 이하. Kill Condition은 대형 고객 주문 둔화, AI connectivity ASP 하락, 20DMA 이탈 후 회복 실패. Upcoming Catalysts는 Nasdaq-100 편입 후 패시브 수급 소화, 다음 분기 매출 가이던스, PCIe/CXL/800G·1.6T 전환 코멘트다.
+- NVT: Risk/Reward는 169~175 눌림 진입 시 1:3 가능. Kill Condition은 AI data center backlog 둔화, liquid cooling 수요 지연, 50DMA 종가 이탈. Upcoming Catalysts는 Q2 실적/수주, backlog 전환 속도, liquid cooling capacity expansion 업데이트다.
+- LITE: Risk/Reward는 900 회복 후 50DMA 지지 시 1:3 가능. Kill Condition은 FY26 Q4 guidance 재하향, Nvidia/AI optical 수요 둔화, 50DMA 회복 실패. Upcoming Catalysts는 Q4 FY26 revenue guidance 확인, 200G/1.6T optical ramp, CPO/NPO 관련 고객 발표다.
+- ANET: Risk/Reward는 162~165 눌림 진입 시 1:3 가능. Kill Condition은 AI fabric 수주 둔화, 1.6T 제품 채택 지연, 50DMA 이탈. Upcoming Catalysts는 6월 25일 AI fabric webinar, hyperscaler capex commentary, 다음 실적의 AI networking mix다.
+- VRT: Risk/Reward는 323~330 눌림 진입 시 1:3 가능. Kill Condition은 데이터센터 전력/냉각 주문 둔화, liquid cooling 마진 압박, 50DMA 이탈. Upcoming Catalysts는 AI liquid cooling backlog 업데이트, 대형 고객 capex 가이던스, power/thermal capacity expansion이다.
 
-## 8. 한 줄 결론
-오늘 22:00 후보군의 핵심은 `LITE- CIEN - NVT`다. CRDO/RMBS류 병목 후보를 찾는 목적에는 LITE와 CIEN이 가장 가깝고, 다음 사이클의 전력 병목 후보로는 NVT가 가장 실전적이다. 우주와 양자는 `ASTS`, `QBTS`를 추격이 아닌 확인형 관찰 후보로 두는 편이 맞다.
+## 7. Hidden Gems
 
-## 9. Sources
-- [Ciena Q2 2026 실적 발표](https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Second-Quarter-2026-Financial-Results/default.aspx)
-- [Ciena 실적 후 주가 반응 - Barron's, 2026-06-04](https://www.barrons.com/articles/ciena-earnings-stock-price-34d08d7f)
-- [Lumentum 조정 구간 평가 - Barron's, 2026-06-12](https://www.barrons.com/articles/coherent-stock-lumentum-buy-nvidia-365675e4)
-- [Lumentum AI 광통신 기사 - IBD, 2026-05-22](https://www.investors.com/research/ibd-stock-of-the-day/lumentum-stock-artificial-intelligence-optical-data-center-boom/)
-- [nVent 셋업/21EMA/175 매수포인트 - IBD, 2026-06 초](https://www.investors.com/stock-lists/stock-spotlight/ai-stock-nvent-electric-nvt-stock-eyes-new-entry-earnings-surge-ai-infrastructure/)
-- [nVent 데이터센터/액체냉각 성장 스토리 - IBD, 2026-03](https://www.investors.com/research/the-new-america/nvent-electric-growth-data-centers-liquid-cooling-artificial-intelligence-nvt-stock/)
-- [AST SpaceMobile 위성 발사 - Barron's, 2026-06-17](https://www.barrons.com/articles/ast-spacemobile-spacex-stock-price-satellite-launch-499813cb)
-- [D-Wave analyst day 이후 주가 반응 - Investopedia, 2026-06-15](https://www.investopedia.com/d-wave-leads-quantum-computing-stocks-higher-as-these-experts-see-more-gains-ahead-11998247)
-- [D-Wave gate-model 로드맵 - Barron's, 2026-06 초](https://www.barrons.com/articles/d-wave-quantum-stock-gate-model-roadmap-ed36ca42)
+| 후보 | 왜 아직 덜 알려졌나 | 확인할 근거 | 리스크 |
+|---|---|---|---|
+| FIX | 산업재/시공주라 AI 반도체 투자자에게 덜 보이지만 데이터센터 전기·기계 공사 병목에 직접 노출된다. | 종가 2066.51, 20DMA 대비 +10.2%; backlog와 데이터센터 매출 비중 확인 | 유동성 낮고 밸류에이션 부담, 공사 지연/마진 리스크 |
+| CIEN | AI 데이터센터 내부가 아니라 외부 optical/metro network라 spotlight가 늦게 온다. | 종가 460.33, 20DMA 대비 -9.8%; 20DMA 회복 전까지 timing wait | 실적 갭다운 후 추세 훼손, hyperscaler 주문 변동 |
+| SYM | 물류 로봇 자동화는 장기 침투율이 크지만 고객 집중과 execution 우려가 아직 크다. | 종가 40.20, 20DMA 대비 -11.6%; 신규 고객 다변화 확인 | 50DMA 대비 -22.4%, Walmart 의존도와 현금흐름 |
+| CEG | AI 전력 수요와 원전/전력 계약의 간접 수혜지만 고성장 소프트웨어처럼 보이지 않는다. | 종가 275.53, 20DMA 대비 +2.5%; 장기 전력계약 확인 | 규제/정책 리스크, 50DMA 아래 |
+
+## 8. Owned but Re-rated
+
+- `CRDO`: 신규 후보 랭킹 제외. ALAB·LITE·ANET 확인 결과, 보유 중인 CRDO의 AI 연결 병목 Thesis는 오히려 더 중요해졌다. 추가매수는 별도 09:00 보유 리포트에서만 판단한다.
+- `AVGO`: 신규 후보 랭킹 제외. AI ASIC/네트워킹 money-flow의 기준점이며, ALAB/LITE는 AVGO형 병목 후보를 찾기 위한 비교군이다.
+- `RKLB`: 신규 후보 랭킹 제외. Nasdaq-100 편입은 대표성 강화 신호지만 신규 매수 후보가 아니라 보유 thesis 관리 대상이다.
+- `RMBS`: 신규 후보 랭킹 제외. HBM/메모리 병목 money-flow는 유지되지만 오늘 후보군에서는 ALAB/LITE/ANET 쪽 연결 병목이 우선이다.
+
+## 9. Thesis Top 5 Ranking
+
+1. ALAB — Money Flow 19/20, Thesis 27/30, Stock 14/15, Timing 12/20, Risk/Reward 14/15 = 86. 미래 AVGO형 AI connectivity 후보지만 오늘은 과열.
+2. NVT — Money Flow 18/20, Thesis 27/30, Stock 13/15, Timing 13/20, Risk/Reward 13/15 = 84. 데이터센터 전력·냉각 병목의 실적 연결성이 가장 좋다.
+3. ANET — Money Flow 18/20, Thesis 26/30, Stock 14/15, Timing 13/20, Risk/Reward 11/15 = 82. AI fabric 표준주 후보지만 대형주 프리미엄이 이미 크다.
+4. LITE — Money Flow 18/20, Thesis 25/30, Stock 13/15, Timing 12/20, Risk/Reward 12/15 = 80. Optical 전환의 핵심 후보이나 50DMA 회복 전까지 timing wait.
+5. VRT — Money Flow 18/20, Thesis 25/30, Stock 13/15, Timing 11/20, Risk/Reward 12/15 = 79. AI power/thermal 대표주지만 현재 이격이 크다.
+
+## 10. Upcoming Catalysts
+
+| 날짜 | 종목/테마 | 이벤트 | Thesis 영향 |
+|---|---|---|---|
+| 2026-06-22 이후 | ALAB, CRWV, NBIS, RKLB, TER | Nasdaq-100 편입 후 패시브 수급 소화 | 편입은 매수 근거가 아니라 money-flow 신호. 편입 후 가격 유지 여부만 확인한다. |
+| 2026-06-25 | ANET | 1.6T AI fabric webinar | 제품 채택·고객 수요 코멘트가 나오면 AI networking Thesis 강화 가능. |
+| 2026년 6~7월 | LITE | FY26 Q4 guidance 및 optical ramp 확인 | 900~906 회복과 함께 가이던스가 유지되면 Top 후보 신뢰도 상승. |
+| 다음 실적 시즌 | NVT, VRT | AI data center orders/backlog 업데이트 | 전력·냉각 Thesis가 실제 매출과 마진으로 이어지는지 확인. |
+| 다음 실적 시즌 | ALAB | AI connectivity 매출 성장·고객 집중도 | 고성장 유지와 고객 다변화가 확인되면 장기 후보에서 핵심 후보로 상향. |
+| 상시 | 국내 ETF 신규상장 | KRX/KIND ETF 신규상장 공시 재확인 | 6월 23일 신규 ETF 없음 판단을 내일 09:00에 재검증. |
+
+## 11. 다음 09:00 Watch 반영
+
+1. Watch 상단: `ALAB`, `NVT`, `LITE`, `ANET`, `VRT`를 올리되 모두 `매수 아님, 조건 대기`로 표시한다.
+2. 가격 트리거: ALAB 21EMA 347 근처 눌림, NVT 175~169 지지, LITE 900~906 회복, ANET 165~162 눌림, VRT 330~323 눌림을 확인한다.
+3. Do Not Touch: CRWV/NBIS/TER는 편입 이벤트만으로 신규 매수 금지, ASTS/QBTS/SYM/CIEN은 20DMA 회복 전까지 관찰만.
+4. ETF 확인: 2026-06-23 국내 신규 ETF는 현재 `없음`으로 처리하되, 09:00에 KRX/KIND 신규상장 공시를 재확인한다.
+5. 보유주 연결: CRDO·AVGO·RKLB·RMBS는 신규 후보가 아니라 보유 Thesis 강화/유지 판단에서만 다룬다.
+
+## 12. 확인한 근거 링크
+
+- Nasdaq-100 June 2026 quarterly changes: https://ir.nasdaq.com/node/110541/pdf
+- CoreWeave Nasdaq-100 편입 발표: https://www.nasdaq.com/press-release/coreweave-join-nasdaq-100-index-2026-06-12
+- Arista 1.6T AI fabric 발표: https://www.nasdaq.com/press-release/arista-introduces-next-generation-16terabit-portfolio-ai-fabrics-2026-06-09
+- Astera Labs IR: https://ir.asteralabs.com
+- Astera Labs Q1 2026 results: https://asteralabs.gcs-web.com/node/8911/pdf
+- nVent Q1 2026 earnings transcript: https://www.fool.com/earnings/call-transcripts/2026/05/01/nvent-nvt-q1-2026-earnings-call-transcript/
+- nVent Q1 2026 earnings presentation: https://static2.finnhub.io/file/privatedatany/slides/4f8ccbf2c25a703af33977871f4d3d5ffcdd2e76a67e0d66ccbeeb551499a23f.pdf
+- Lumentum quarterly results: https://investor.lumentum.com/quarterly-results/default.aspx
+- Lumentum FY26 Q4 guidance coverage: https://www.zacks.com/stock/news/2934097/is-surging-ai-demand-driving-lumentums-stronger-q4-guidance
+- Teradyne investor relations: https://investors.teradyne.com
+- 연합뉴스 2026-06-16 ETF 3종 신규상장: https://www.yna.co.kr/view/AKR20260612128600008
+- 연합뉴스 2026-06-09 ETF 3종 신규상장: https://www.yna.co.kr/view/AKR20260605118900008
