@@ -11,10 +11,13 @@ const slotTitleLabels = {
   "22:00": "thesis candidate 리포트",
 };
 
+const SEOUL_TIME_ZONE = "Asia/Seoul";
+
 let appState = {
   reports: [],
   selectedDate: "",
   selectedSlot: "09:00",
+  updatedAt: "",
 };
 
 const escapeHtml = (value) =>
@@ -24,6 +27,46 @@ const escapeHtml = (value) =>
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+
+const kstSlotScheduledAt = (date, slot) => {
+  const [year, month, day] = date.split("-").map(Number);
+  const [hour, minute] = slot.split(":").map(Number);
+  return new Date(Date.UTC(year, month - 1, day, hour - 9, minute));
+};
+
+const normalizeSlotForDisplay = (report, slotName, rootUpdatedAt = "", now = new Date()) => {
+  const slot = report?.slots?.[slotName] || {};
+  const scheduledAt = slot.scheduledAt ? new Date(slot.scheduledAt) : kstSlotScheduledAt(report.date, slotName);
+  const completedAt = slot.completedAt ? new Date(slot.completedAt) : null;
+  const fallbackUpdatedAt = rootUpdatedAt ? new Date(rootUpdatedAt) : null;
+  const status = slot.status || "pending";
+
+  const isBeforeSchedule = now < scheduledAt;
+  const completedTooEarly = completedAt && completedAt < scheduledAt;
+  const legacyUpdatedTooEarly = status === "done" && !completedAt && fallbackUpdatedAt && fallbackUpdatedAt < scheduledAt;
+  const shouldHideDone = isBeforeSchedule || completedTooEarly || legacyUpdatedTooEarly;
+
+  if (status === "done" && shouldHideDone) {
+    return {
+      ...slot,
+      status: isBeforeSchedule ? "pending" : "invalid",
+      summary: isBeforeSchedule
+        ? `${slotName} KST 실행 대기 중입니다.`
+        : `${slotName} KST 이전에 생성된 리포트라 검증 대기 중입니다.`,
+      markdown: "",
+      scheduledAt: scheduledAt.toISOString(),
+    };
+  }
+
+  return {
+    ...slot,
+    status,
+    scheduledAt: scheduledAt.toISOString(),
+  };
+};
+
+const getDisplaySlot = (report, slotName) =>
+  normalizeSlotForDisplay(report, slotName, appState.updatedAt);
 
 const inlineMarkdown = (value) =>
   escapeHtml(value)
@@ -165,14 +208,14 @@ const formatUpdatedAt = (value) => {
   return new Intl.DateTimeFormat("ko-KR", {
     dateStyle: "medium",
     timeStyle: "short",
-    timeZone: "Asia/Seoul",
+    timeZone: SEOUL_TIME_ZONE,
   }).format(new Date(value));
 };
 
 const getReportByDate = (date) => appState.reports.find((report) => report.date === date);
 
 const firstAvailableSlot = (report) =>
-  slotOrder.find((time) => report?.slots?.[time]?.status === "done") || slotOrder[0];
+  slotOrder.find((time) => getDisplaySlot(report, time)?.status === "done") || slotOrder[0];
 
 const renderDateList = () => {
   document.querySelector("#date-list").innerHTML = appState.reports
@@ -197,7 +240,7 @@ const renderDateList = () => {
 const renderSlotTabs = (report) => {
   document.querySelector("#slot-tabs").innerHTML = slotOrder
     .map((time) => {
-      const slot = report?.slots?.[time];
+      const slot = getDisplaySlot(report, time);
       return `
         <button class="slot-tab ${time === appState.selectedSlot ? "active" : ""}" data-slot="${time}" type="button" role="tab" aria-selected="${time === appState.selectedSlot}">
           <span class="slot-tab-time">${time}</span>
@@ -216,7 +259,7 @@ const renderSlotTabs = (report) => {
 };
 
 const renderReader = (report) => {
-  const slot = report?.slots?.[appState.selectedSlot] || {};
+  const slot = getDisplaySlot(report, appState.selectedSlot);
   const hour = appState.selectedSlot.split(":")[0].replace(/^0/, "");
 
   document.querySelector("#selected-title").textContent =
@@ -231,7 +274,7 @@ const renderReader = (report) => {
 const renderStatus = (report) => {
   document.querySelector("#status-grid").innerHTML = slotOrder
     .map((time) => {
-      const slot = report?.slots?.[time];
+      const slot = getDisplaySlot(report, time);
       const status = slot?.status || "pending";
       return `
         <article class="status-card">
@@ -259,6 +302,7 @@ const init = async () => {
   const response = await fetch(`/data/reports.json?ts=${Date.now()}`);
   const data = await response.json();
   appState.reports = [...data.reports].sort((a, b) => b.date.localeCompare(a.date));
+  appState.updatedAt = data.updatedAt || "";
   const latest = appState.reports.find((report) => report.date === data.latestDate) || appState.reports[0];
   appState.selectedDate = latest?.date || "";
   appState.selectedSlot = firstAvailableSlot(latest);
