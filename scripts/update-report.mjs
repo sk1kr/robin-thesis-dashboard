@@ -67,7 +67,8 @@ for (const defaultSlot of slotOrder) {
 
 const now = new Date();
 const scheduledAt = kstSlotScheduledAt(date, slot);
-if (status === "done" && now < scheduledAt) {
+const allowFutureDone = process.env.ROBIN_AUTOMATION_ALLOW_FUTURE_DONE === "1";
+if (status === "done" && now < scheduledAt && !allowFutureDone) {
   throw new Error(`${date} ${slot} KST is not due yet. Refusing to mark future report as done.`);
 }
 
