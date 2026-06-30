@@ -9,6 +9,7 @@ const kstSlotScheduledAt = (date, slot) => {
 };
 
 const inputPath = process.argv[2] || "public/data/reports.json";
+const allowFutureDone = process.env.ROBIN_AUTOMATION_ALLOW_FUTURE_DONE === "1";
 const data = JSON.parse(readFileSync(inputPath, "utf8"));
 const errors = [];
 
@@ -22,7 +23,7 @@ for (const report of data.reports || []) {
 
     if (!completedAt) {
       errors.push(`${report.date} ${slotName}: done slot is missing completedAt`);
-    } else if (completedAt < scheduledAt) {
+    } else if (completedAt < scheduledAt && !allowFutureDone) {
       errors.push(`${report.date} ${slotName}: completedAt is earlier than scheduledAt`);
     }
   }

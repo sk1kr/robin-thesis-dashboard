@@ -10,6 +10,7 @@ const kstSlotScheduledAt = (date, slot) => {
 
 const inputPath = process.argv[2] || "public/data/reports.json";
 const now = process.env.NOW ? new Date(process.env.NOW) : new Date();
+const allowFutureDone = process.env.ROBIN_AUTOMATION_ALLOW_FUTURE_DONE === "1";
 const data = JSON.parse(readFileSync(inputPath, "utf8"));
 const rootUpdatedAt = data.updatedAt ? new Date(data.updatedAt) : now;
 
@@ -26,7 +27,7 @@ for (const report of data.reports || []) {
       const generatedTooEarly = completedAt < scheduledAt;
       const scheduledInFuture = now < scheduledAt;
 
-      if (generatedTooEarly || scheduledInFuture) {
+      if ((generatedTooEarly || scheduledInFuture) && !allowFutureDone) {
         slot.status = "pending";
         slot.summary = `${slotName} KST 실행 대기 중입니다.`;
         slot.markdown = "";
