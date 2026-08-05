@@ -1,23 +1,23 @@
-# 2026-08-04 신규 Thesis 후보군 리포트
+# 2026-08-05 신규 Thesis 후보군 리포트
 
 목적: 아직 안 샀지만 미래의 PLTR, AVGO, RKLB 찾기.
 
-> 오늘 결론: 신규 후보 Top 5는 `DDOG`, `ANET`, `SNOW`, `APH`, `BKR`이다. PLTR Q2는 AI 운영 소프트웨어 money-flow를 강화했지만, 8월 4~6일 실적 이벤트가 몰려 있어 오늘은 후보 확정이 아니라 조건부 Watch 갱신이다.
-> 지금 할 일: 다음 09:00 Watch에는 `DDOG 276.70 돌파 또는 258~264 지지`, `ANET 174~180 지지`, `SNOW 284.99 돌파 후 280 지지`, `APH 157~160 지지`, `BKR 60~61 안착`만 올린다.
-> 건드리지 말 것: 보유 중인 `PLTR/AVGO/RKLB/NVDA/TSM/RMBS/NVTS/GLW/RXT/국내 AI ETF`는 신규 후보 랭킹에서 제외하고, `AMD/SNDK/MU/GEV/VRT/ALAB/COHR/CIEN/LITE/KTOS/AVAV/IRDM/CRDO/ETN`은 단기 추세선 또는 이벤트 확인 전 추격하지 않는다.
-> 가격 기준: 미국 후보 가격과 단기 추세선은 Yahoo Finance chart API 일봉 기준 2026-08-03 미국 정규장 종가로 20DMA/21EMA/50DMA를 계산했다. 한국 ETF는 2026-08-04 상장/장마감 확인 기준이며 2026-08-04 미국 정규장 가격은 아직 반영하지 않았다.
-> 뉴스 기준: 2026-08-03 미국장 마감 이후 2026-08-04 13:10 KST까지 PLTR Q2 결과, ANET/AMD/KTOS 8월 4일 실적 예정, DDOG/NET 8월 6일 실적 예정, SNOW 9월 2일 실적 예정, 2026-08-04 국내 ETF 5종 신규상장과 2026-08-05 신규 ETF 검색 여부를 확인했다.
-> 미확인 항목: 2026-08-04 미국 정규장과 장후 실적 결과, 한국 ETF 5종의 첫날 최종 기관/외국인 순매수와 전체 구성종목 비중, Whale Insight 5%/10% 상세 변동, Robin의 오늘 실제 매매 여부는 확인하지 못했다.
+> 오늘 결론: 신규 후보 Top 5는 `ANET`, `DDOG`, `ALAB`, `BKR`, `PWR`다. Money Flow는 AI 운영 소프트웨어보다 오늘은 `AI networking/interconnect`와 `data-center power/grid`로 더 강하게 움직였지만, 대부분 20DMA 위로 이미 벌어져 오늘은 매수가 아니라 조건부 Watch 갱신이다.
+> 지금 할 일: 다음 09:00 Watch에는 `ANET 실적 후 갭 유지`, `DDOG 8월 6일 Q2`, `ALAB 350~360 지지`, `BKR 60~61 지지`, `PWR 680~695 지지`만 올리고, 모든 후보는 분할 진입 조건과 손절선을 먼저 정한다.
+> 건드리지 말 것: 보유 중인 `PLTR/AVGO/RKLB/NVDA/TSM/RMBS/NVTS/GLW/RXT/국내 AI ETF`는 신규 후보 랭킹에서 제외하고, `SNOW/NET/APH/MRVL/COHR/LITE/AMD/CRDO/ETN`은 좋은 테마라도 20DMA 대비 과열 또는 실적 이벤트 확인 전 추격하지 않는다.
+> 가격 기준: 미국 후보 가격과 단기 추세선은 Yahoo Finance chart API 일봉 기준 2026-08-04 미국 정규장 종가로 20DMA/21EMA/50DMA를 계산했다. ANET/ALAB/AMD의 장후 반응은 뉴스 신호로만 반영하고 추세선 계산에는 넣지 않았다.
+> 뉴스 기준: 2026-08-04 미국장 마감 이후 2026-08-05 22:00 KST까지 ANET/AMD/ALAB 실적, DDOG 8월 6일 실적 일정, BKR/PWR 최근 Q2, optical networking 및 국내 ETF 신규상장 공시 검색을 확인했다.
+> 미확인 항목: 2026-08-05 미국 정규장 종가, ANET/ALAB/AMD 장후 반응의 본장 확정, 2026-08-06 국내 ETF 신규상장 여부의 장전 최종 공지, Whale Insight 5%/10% 상세 변동, Robin의 오늘 실제 매매 여부는 확인하지 못했다.
 
 ## 1. 09:00/15:30에서 넘어온 후보
 
 | 후보 | 넘어온 이유 | 심화 결과 |
 |---|---|---|
-| DDOG / NET / SNOW | PLTR Q2 이후 AI software money-flow 확산 후보 | `DDOG`는 267.97달러, 20DMA +3.6%로 Top 1이다. `SNOW`는 293.28달러, 20DMA +7.9%로 새 Top 5에 편입한다. `NET`은 20DMA +3.2%지만 8월 6일 장후 실적 전이라 차순위로 둔다. |
-| ANET / APH | AI networking/interconnect 후보 | `ANET`은 180.35달러, 20DMA +3.5%, 8월 4일 장후 Q2가 직접 촉매다. `APH`는 160.70달러, 20DMA +3.0%로 AVGO형 physical bottleneck 후보를 유지한다. |
-| AMD / SNDK / MU | CPU/AI silicon과 memory ETF flow 확인 후보 | `AMD` -7.6%, `SNDK` -19.5%, `MU` -9.7% vs 20DMA라 단독주 Top 후보가 아니다. 8월 4일 AMD 실적과 신규 CPU ETF money-flow 확인용으로만 둔다. |
-| GEV / VRT / PWR / BKR / CEG | AI power, grid, data-center infrastructure 후보 | `BKR`은 60.49달러로 20DMA +5.7%, 50DMA +1.2%라 Top 5 유지. `PWR/CEG/FIX`는 차순위, `GEV/VRT`는 20DMA 아래라 추격 금지다. |
-| KTOS / AVAV / IRDM / AADX | RKLB형 우주·방산 실행력 후보 | `KTOS`는 46.60달러, 20DMA -3.4%, 8월 4일 Q2 전이다. `IRDM`은 RKLB 보유 thesis 변수로만 보고 신규 후보 랭킹에는 넣지 않는다. |
+| ANET | 15:30에서 AI networking 실적 확인 후보로 이관 | Q2 beat와 Q3 가이던스 상향, 장후 강세가 확인돼 Top 1로 올린다. 다만 190.51달러, 20DMA +8.2%라 실적 갭 추격은 금지다. |
+| AMD | AI compute money-flow 질 확인 후보 | Q2 매출과 data center 성장은 강하지만 장후 하락이 기대치 부담을 보여준다. 보유주가 아니어도 오늘 신규 Top 5에는 넣지 않고 NVDA/TSM/AVGO read-through로만 본다. |
+| DDOG / NET / SNOW | PLTR 이후 AI software 확산 후보 | `DDOG`는 276.70 돌파 후 288.15달러로 Top 2를 유지한다. `NET/SNOW`는 각각 20DMA +10.0%, +14.5%라 thesis는 좋지만 추격 금지 후보로 낮춘다. |
+| MU / MRVL / COHR / LITE | 메모리·optical networking money-flow 확인 후보 | FCC의 중국 optical transceiver 규제 가능성 보도로 MRVL/COHR/LITE가 급등했다. 신호는 강하지만 정책 뉴스성 갭이라 Top 후보보다 Hidden Gems로 둔다. |
+| GEV / VRT / PWR / BKR | AI power, grid, data-center infrastructure 후보 | `BKR`은 IET orders와 data-center power 수주가 실제 숫자로 확인됐고, `PWR`은 Q2와 backlog가 강해 Top 5다. `GEV/VRT`는 timing이 약해 차순위다. |
 
 ## 2. New Thesis Candidates
 
@@ -25,129 +25,128 @@
 
 | 순위 | 종목 | 왜 미래의 PLTR/AVGO/RKLB 후보인가 | 역할 | 판단 |
 |---:|---|---|---|---|
-| 1 | DDOG | AI agent와 cloud workload가 복잡해질수록 관측·보안·비용 통제 계층이 반복 매출로 잠기는 구조라 PLTR형 운영 소프트웨어 후보가 될 수 있다. | 단독주 / AI observability | `강화 watch`, 267.97달러, 20DMA +3.6%, 50DMA +9.4%; 8월 6일 Q2 전 추격 금지 |
-| 2 | ANET | AI cluster가 커질수록 고성능 networking operating layer가 반복 구매되는 구조라 AVGO형 인프라 병목 후보가 될 수 있다. | 단독주 / AI networking | `강화 watch`, 180.35달러, 20DMA +3.5%, 50DMA +8.3%; 8월 4일 Q2 후 확인 |
-| 3 | SNOW | 기업 데이터가 AI 실행 계층으로 이동할수록 Data Cloud와 AI app layer가 반복 사용되는 구조라 PLTR형 데이터 운영 플랫폼 후보가 될 수 있다. | 단독주 / AI data cloud | `강화 watch`, 293.28달러, 20DMA +7.9%, 50DMA +18.5%; 284.99 돌파 후 지지 확인 |
-| 4 | APH | AI 서버의 고속 connector·interconnect 병목이 record orders로 반복되면 physical networking판 AVGO 후보가 될 수 있다. | 단독주 / AI interconnect | `강화`, 160.70달러, 20DMA +3.0%, 50DMA +4.4%; 157~160 지지 확인 |
-| 5 | BKR | 데이터센터 전력 수요가 IET orders와 전력 장비 backlog로 반복되면 에너지 장비판 AVGO 후보가 될 수 있다. | 단독주 / AI power equipment | `강화 watch`, 60.49달러, 20DMA +5.7%, 50DMA +1.2%; 60~61 안착 확인 |
+| 1 | ANET | AI cluster가 커질수록 Ethernet switching과 cloud networking이 반복 구매되는 병목 계층이어서 AVGO형 인프라 compounder가 될 수 있다. | 단독주 / AI networking | `강화 watch`, Q2 beat 확인. 190.51달러, 20DMA +8.2%, 50DMA +13.2%; 장후 갭 유지 확인 전 추격 금지 |
+| 2 | DDOG | AI agent와 cloud workload가 복잡해질수록 관측·보안·비용 통제 계층이 반복 매출로 잠기는 구조라 PLTR형 운영 소프트웨어 후보가 될 수 있다. | 단독주 / AI observability | `강화 watch`, 288.15달러, 20DMA +10.3%, 50DMA +16.4%; 8월 6일 Q2 전 신규 진입 금지 |
+| 3 | ALAB | AI 서버 내부 데이터 이동 병목을 fabric switch, retimer, smart cable로 장악하면 AVGO형 connectivity platform 후보가 될 수 있다. | 단독주 / AI connectivity | `강화 watch`, Q2 매출 +104% YoY. 361.67달러, 20DMA +9.8%, 50DMA +1.3%; 350~360 지지 확인 |
+| 4 | BKR | 데이터센터 전력 수요가 IET orders, power generation, backlog로 반복되면 에너지 장비판 AVGO 후보가 될 수 있다. | 단독주 / AI power equipment | `강화 watch`, 61.73달러, 20DMA +6.5%, 50DMA +3.6%; 60~61 지지 확인 |
+| 5 | PWR | 전력망과 mission-critical infrastructure backlog가 AI 데이터센터 투자와 함께 누적되면 grid 시공판 RKLB/AVGO형 실행력 후보가 될 수 있다. | 단독주 / power grid contractor | `강화 watch`, Q2 매출 +41%, backlog record. 693.00달러, 20DMA +7.7%, 50DMA +1.9%; 680~695 지지 확인 |
 
 ### ETF 후보
 
 | 구분 | ETF/바스켓 | 역할 | 판단 |
 |---|---|---|---|
-| 다음 거래일 신규 국내 ETF | 없음 | 2026-08-05 신규 ETF money-flow 확인 | 공개 검색 기준으로 다음 거래일 신규 국내 ETF는 확인되지 않았다. 2026-08-04 상장 5종은 오늘의 flow 신호로만 반영한다. |
-| 오늘 신규 국내 ETF 5종 | 마이티 AI데이터센터밸류체인 / WON 피지컬AI TOP2플러스액티브 / PLUS SK하이닉스샌디스크채권혼합50 / KODEX 미국CPU반도체TOP10 / HANARO 미국S&P500액티브 | AI 데이터센터·피지컬AI·CPU·memory money-flow 확인 | 신규 ETF 상장은 후보 universe를 좁히는 신호다. 편입 또는 상장 자체는 단독주 매수 근거가 아니다. |
-| AI software 바스켓 | DDOG / SNOW / NET / ZS / CRWD | PLTR형 운영 소프트웨어 money-flow 확인 | `DDOG/SNOW`가 가장 우선이다. `NET/ZS/CRWD`는 차순위이며 Q2·가이던스 확인 전 추격 금지다. |
-| AI networking/interconnect 바스켓 | ANET / APH / ALAB / COHR / CIEN / LITE / CRDO | AVGO형 병목 비교군 | `ANET/APH`만 Top 5다. `ALAB/COHR/CIEN/LITE/CRDO`는 20DMA 아래라 hidden watch로 둔다. |
-| AI power/grid 바스켓 | BKR / PWR / CEG / FIX / GEV / VRT | 전력 supercycle money-flow 확인 | `BKR`이 가장 깨끗하다. `PWR/CEG/FIX`는 watch, `GEV/VRT`는 20DMA 회복 전 보류다. |
+| 다음 거래일 신규 국내 ETF | 없음 | 2026-08-06 신규 ETF money-flow 확인 | KRX Data/KIND ETF 공시와 공개 검색 기준으로 다음 거래일 신규 국내 ETF 상장 공지는 확인되지 않았다. 장전 재확인은 필요하다. |
+| 기존 2026-08-04 신규 국내 ETF | AI데이터센터·피지컬AI·CPU·memory 관련 5종 | ETF발 money-flow 신호 | 이미 상장된 상품이라 Tomorrow ETF Launches에는 넣지 않는다. 편입 종목은 매수 근거가 아니라 후보 universe 확인용이다. |
+| AI networking/interconnect 바스켓 | ANET / ALAB / APH / MRVL / COHR / LITE / CRDO | AVGO형 병목 후보군 | `ANET/ALAB`만 Top 5다. 나머지는 정책 뉴스성 급등 또는 보유/매도 이력 때문에 조건부 Watch다. |
+| AI power/grid 바스켓 | BKR / PWR / GEV / VRT / CEG / FIX / ETN | 전력 supercycle money-flow 확인 | `BKR/PWR`가 가장 직접적이다. `GEV/VRT/CEG/FIX/ETN`은 진입 조건 또는 보유/매도 이력 때문에 분리한다. |
 
 ## 3. Money Flow
 
-- Money Flow: PLTR Q2의 매출 +93%, U.S. commercial 고성장, 가이던스 상향은 AI software가 단순 데모에서 enterprise operating layer로 돈을 받는 흐름을 강화한다. 오늘 신규 ETF 5종은 한국 쪽 새 돈이 AI 데이터센터, 피지컬AI, CPU, memory로 계속 들어오려는 신호다.
-- Thesis: 우선순위는 `AI 운영 소프트웨어 -> AI networking/interconnect -> AI power/grid`다. PLTR 결과 때문에 `DDOG/SNOW/NET`의 thesis 검증 강도가 올라갔고, ETF flow 때문에 `ANET/APH/BKR/PWR/CEG` 후보군이 유지된다.
-- Stock: 신규 단독주 표현은 `DDOG/ANET/SNOW/APH/BKR`다. 보유주인 `PLTR/AVGO/RKLB/NVDA/TSM/RMBS/NVTS/GLW/RXT`와 국내 AI ETF는 신규 랭킹에서 제외한다.
-- Timing: `DDOG` 267.97, 20DMA 258.74, 21EMA 255.21, 50DMA 244.87. `ANET` 180.35, 20DMA 174.22, 21EMA 171.45, 50DMA 166.58. `SNOW` 293.28, 20DMA 271.75, 21EMA 269.90, 50DMA 247.56. `APH` 160.70, 20DMA 156.03, 21EMA 155.65, 50DMA 153.92. `BKR` 60.49, 20DMA 57.24, 21EMA 58.06, 50DMA 59.78.
-- 제외할 과열/뉴스성 흐름: `AMD/SNDK/MU`는 ETF와 실적 스토리가 있어도 20DMA 아래다. `GEV/VRT/ALAB/COHR/CIEN/LITE/CRDO/KTOS/AVAV`도 좋은 thesis가 있어도 단기 추세선 또는 실적 이벤트가 약해 `watch, not chase`다.
+- 오늘/내일 자금이 향할 가능성이 큰 테마: `AI networking/interconnect -> data-center power/grid -> AI observability/software -> AI compute read-through` 순서다.
+- Money Flow: ANET 실적과 ALAB 실적은 AI 인프라 지출이 GPU에서 networking/fabric 병목으로 확산되는 신호다. BKR/PWR는 데이터센터 전력 수요가 수주와 backlog로 전환되는 축이다.
+- Thesis: PLTR 급등은 AI 운영 소프트웨어 money-flow를 계속 지지하지만, 오늘 신규 후보의 실제 thesis evidence는 ANET/ALAB/BKR/PWR 쪽이 더 숫자로 확인됐다.
+- Stock: 신규 단독주 표현은 `ANET/DDOG/ALAB/BKR/PWR`다. 보유주 `PLTR/AVGO/RKLB/NVDA/TSM/RMBS/NVTS/GLW/RXT`와 국내 AI ETF는 신규 후보 랭킹에서 제외한다.
+- Timing: Top 5 전부 20DMA 위다. 좋은 점은 기관성 수요가 확인된다는 것이고, 나쁜 점은 손절선이 멀어져 Risk/Reward가 1:3을 깨기 쉽다는 것이다.
+- 제외할 과열/뉴스성 흐름: `SNOW/NET/APH`는 20DMA 대비 +9.5%~+14.5%로 과열이고, `MRVL/COHR/LITE`는 FCC 규제 가능성 뉴스에 급등해 고객·주문·가이던스 확인 전 매수 근거가 약하다. `AMD`는 실적은 좋지만 장후 하락이 기대치 부담을 보여준다.
 
 ## 4. Tomorrow ETF Launches
 
 | ETF | 운용사 | 테마 | 상장일 | 주요 보유/대표 종목 | Thesis Score | 예상 자금 흐름 |
 |---|---|---|---|---|---:|---|
-| 없음 | 없음 | 없음 | 2026-08-05 | 없음 | 0 | 다음 거래일 신규 ETF는 확인되지 않아 신규 자금 유입 신호 없음 |
+| 없음 | 없음 | 없음 | 2026-08-06 | 없음 | 0 | 다음 국내 거래일 신규 ETF 상장 공지가 확인되지 않아 신규 ETF발 직접 자금 유입 신호 없음 |
 
-확인 기준: 2026-08-04 13:10 KST 기준 다음 국내 거래일은 2026-08-05 수요일이다. KRX/KIND 관련 화면과 공개 웹 검색에서 `2026-08-05 ETF 신규상장` 공지는 확인되지 않았다. 2026-08-04 신규상장 5종은 오늘 이미 상장된 상품으로 분리해 Money Flow와 ETF Holdings Reverse Analysis에만 반영한다.
+확인 기준: 2026-08-05 22:00 KST 기준 다음 국내 거래일은 2026-08-06 목요일이다. KRX Data Marketplace 공지, KIND ETF/ELW/ETN/상장형수익증권 공시 화면, 공개 웹 검색에서 `2026-08-06 ETF 신규상장` 공지는 확인되지 않았다. 단, 국내 ETF 신규상장 공시는 장전에도 갱신될 수 있어 다음 09:00에서 최종 재확인한다.
 
 ## 5. ETF Holdings Reverse Analysis
 
-- 반복 편입 종목: 오늘 신규 ETF 5종의 반복 축은 `AI 데이터센터 가치사슬`, `피지컬AI`, `CPU/AI silicon`, `memory`, `S&P500 active beta`다. 미국 후보로는 `ANET/APH/BKR/PWR/CEG/FIX/AMD/SNDK/MU/GEV/VRT`가 universe에 들어간다.
-- 직접 수혜: AI networking은 `ANET`, physical interconnect는 `APH`, AI observability는 `DDOG`, AI data cloud는 `SNOW`, edge security/AI traffic은 `NET`, power equipment는 `BKR`, grid 시공은 `PWR/FIX`, power reliability는 `CEG`다.
-- 2차 수혜: `ALAB/COHR/CIEN/LITE/CRDO`는 optical/interconnect 확장, `KTOS/AVAV/AADX`는 방산·무인시스템·우주 제조, `AMD/SNDK/MU`는 CPU·memory ETF flow 확인용이다.
-- ETF가 단일주보다 나은 경우: 테마는 맞지만 단독주가 20DMA 아래이거나 실적 이벤트가 임박해 손절선이 넓으면 ETF가 더 나은 표현이다.
+- 반복 편입 종목: 최근 국내 ETF flow의 반복 축은 `AI 데이터센터`, `피지컬AI`, `CPU/AI silicon`, `memory`, `미국 AI 인프라`다. 오늘 미국장에서는 이 축이 `ANET/ALAB/MRVL/COHR/LITE/BKR/PWR`로 재확장됐다.
+- 직접 수혜: AI networking은 `ANET`, fabric/connectivity는 `ALAB`, AI observability는 `DDOG`, power equipment는 `BKR`, grid 시공은 `PWR`다.
+- 2차 수혜: `APH/MRVL/COHR/LITE/CRDO`는 optical/interconnect 확산 후보, `GEV/VRT/CEG/FIX/ETN`은 전력 인프라 후보, `AMD/MU`는 AI compute와 memory cycle 확인용이다.
+- ETF가 단일주보다 나은 경우: 후보가 20DMA 대비 +10% 이상 벌어졌거나 실적 이벤트가 24~48시간 안에 있으면 단일주보다 ETF/바스켓이 리스크 관리에 낫다.
 - 주의: ETF 편입은 매수 근거가 아니라 money-flow 신호다. 단독주는 고객·주문·backlog·가이던스·단기 추세선·Risk/Reward를 별도로 통과해야 한다.
 
 ## 6. Whale Insight Flow Check
 
-- 국민연금/주요주주 Flow: Whale Insight 국민연금 페이지는 2026년 1분기 기준 13F 후행 데이터로 확인된다. 집중 매수 리스트에는 `GE Vernova`와 `Applied Materials`가 보이며, 주요 보유 상위에는 `NVIDIA`, `Microsoft`, `Amazon`, `Alphabet` 등 AI 인프라/플랫폼 노출이 유지된다.
-- Thesis 후보로 볼 신호: `GEV` 편입 증가는 AI power/grid theme의 confirming signal이다. 다만 `GEV` 자체는 20DMA -4.4%라 오늘 매수 후보가 아니라 `PWR/BKR/CEG/FIX`와 함께 power money-flow 확인용이다.
-- 경고 또는 제외할 신호: 13F 후행 보유가 있어도 단기 추세선이 깨졌거나 고객·주문·backlog 근거가 약하면 `watch, not chase`다.
-- 후행성/미확인 항목: Whale Insight 5%/10% 상세 변동은 이번 실행에서 안정적으로 확인하지 못했다. 이번 Top 5 순위는 Whale Insight보다 PLTR 실적, ETF flow, 가격 구조, 임박 촉매를 우선했다.
+- 국민연금/주요주주 Flow: Whale Insight 직접 페이지는 이번 실행에서 안정적으로 열리지 않았다. 대체 확인한 13F 집계는 2026-03-31 기준 국민연금 미국 포트폴리오 상위가 `NVDA`, `Apple`, `Microsoft`, `Amazon`, `Alphabet` 중심이라고 보여준다.
+- Thesis 후보로 볼 신호: 후행 13F 기준으로 AI 인프라와 mega-cap platform 노출은 유지된다. 이는 `ANET/DDOG/ALAB/BKR/PWR`의 직접 매수 근거가 아니라 AI capex와 enterprise AI money-flow가 여전히 큰 축이라는 보조 신호다.
+- 경고 또는 제외할 신호: 13F는 지연 데이터이므로 오늘 가격 급등, 실적, 가이던스보다 우선할 수 없다. Whale flow만 있고 단기 추세선 또는 thesis evidence가 약하면 `watch, not chase`다.
+- 후행성/미확인 항목: Whale Insight 5%/10% 상세 변동은 확인하지 못했다. 이번 순위는 ANET/ALAB 실적, DDOG 촉매, BKR/PWR 수주·backlog, 가격 구조를 우선했다.
 
 ## 7. Top 후보 Dashboard
 
 | 종목 | Thesis Score | 단기 추세선 | 진입 조건 | Why Not Buy Today |
 |---|---:|---|---|---|
-| DDOG | 84 | 267.97, 20DMA 258.74, 21EMA 255.21, 50DMA 244.87 | 276.70 돌파 후 종가 지지, 또는 258~264 눌림에서 거래량 감소 | 8월 6일 장전 Q2 전이고 AI observability 기대가 높다. 실적 전 추격은 갭다운 리스크가 손절선을 넓힌다. |
-| ANET | 83 | 180.35, 20DMA 174.22, 21EMA 171.45, 50DMA 166.58 | 174~180 지지 후 Q2에서 AI networking 수요와 가이던스 확인 | 8월 4일 장후 Q2 전이다. 좋은 차트라도 실적 갭 리스크가 한 번에 Risk/Reward를 망가뜨릴 수 있다. |
-| SNOW | 82 | 293.28, 20DMA 271.75, 21EMA 269.90, 50DMA 247.56 | 284.99 돌파선 위에서 280~285 지지, 또는 272~280 눌림 지지 | Q1 이후 AI 기대와 기술적 돌파가 이미 반영됐다. 눌림 없는 추격은 손절선이 270 아래로 넓어진다. |
-| APH | 81 | 160.70, 20DMA 156.03, 21EMA 155.65, 50DMA 153.92 | 157~160 지지 후 재상승, 또는 154~156 재테스트에서 매도 거래량 감소 | record orders 이후 기대가 가격에 반영됐다. 손절선이 149~152 아래로 멀어지면 Risk/Reward가 1:3 아래다. |
-| BKR | 79 | 60.49, 20DMA 57.24, 21EMA 58.06, 50DMA 59.78 | 60~61 위 안착 후 거래량 증가, 또는 56~58 지지 | AI power orders가 강해도 에너지·유가·지정학 변동성이 같이 붙는다. 50DMA 근처 false breakout 위험이 있다. |
+| ANET | 86 | 190.51, 20DMA 176.01, 21EMA 174.29, 50DMA 168.31 | 실적 후 갭이 본장에서 유지되고 185~195 재테스트에서 매도 거래량 감소 | Q2 이후 장후 갭이 커졌다. 확인 없이 추격하면 손절선이 176 아래로 넓어져 Risk/Reward가 나빠진다. |
+| DDOG | 84 | 288.15, 20DMA 261.22, 21EMA 259.72, 50DMA 247.50 | Q2 후 276.70 위를 지키거나 262~275 눌림에서 거래량 감소 | 8월 6일 Q2 전이고 이미 20DMA +10.3%다. 실적 갭다운이 나오면 손절선이 한 번에 깨진다. |
+| ALAB | 83 | 361.67, 20DMA 329.29, 21EMA 328.11, 50DMA 357.15 | 350~360 위 지지, 또는 330~340 눌림 후 재상승 | Q2는 강하지만 장중 +12.7% 뒤 장후 매물이 나왔다. 50DMA 회복 직후라 false breakout 가능성이 있다. |
+| BKR | 81 | 61.73, 20DMA 57.98, 21EMA 58.62, 50DMA 59.58 | 60~61 위 안착 후 거래량 증가, 또는 58 부근 지지 | IET thesis는 강하지만 에너지·유가·지정학 변동성이 붙는다. 60 이탈 시 손절 판단이 빨라야 한다. |
+| PWR | 80 | 693.00, 20DMA 643.60, 21EMA 652.30, 50DMA 680.02 | 680~695 지지 후 재상승, 또는 650~665 눌림에서 매수세 확인 | Q2 beat 이후 이미 50DMA를 회복했다. Texas data-center interconnection 규제 뉴스가 power trade를 흔들 수 있다. |
 
 ### Top 후보 상세: Risk/Reward, Kill Condition, Catalysts
 
-- DDOG: Risk/Reward는 258~264 지지 후 목표 310~325, 손절 248~252일 때 1:3에 접근한다. Kill Condition은 Q2 매출 성장 둔화, net retention 약화, AI 고객 수요가 narrative에 그침, 248달러 종가 이탈. Upcoming Catalysts는 2026-08-06 Q2 earnings, AI customer commentary, observability/security attach rate다.
-- ANET: Risk/Reward는 174~180 지지 후 목표 215~225, 손절 162~166일 때 1:3에 접근한다. Kill Condition은 Q2에서 AI cluster 수요 둔화, cloud titan capex 지연, gross margin 하락, 166달러 종가 이탈. Upcoming Catalysts는 2026-08-04 Q2 earnings, 1.6T networking adoption, AI data-center customer commentary다.
-- SNOW: Risk/Reward는 280~285 지지 후 목표 340~360, 손절 266~270일 때 1:3 가능하다. Kill Condition은 product revenue 재가속 실패, NRR 둔화, AI product 사용이 매출로 전환되지 않음, 266달러 이탈. Upcoming Catalysts는 2026-09-02 Q2 FY2027 earnings, Cortex/Snowflake Intelligence adoption, Observe 인수 시너지다.
-- APH: Risk/Reward는 157~160 지지 후 목표 185~195, 손절 149~152일 때 1:3 가능하다. Kill Condition은 book-to-bill 하락, AI data-center connector 수요 둔화, margin peak-out, 149달러 이탈. Upcoming Catalysts는 hyperscaler connector demand, AI interconnect 주문 지속성, 후속 가이던스다.
-- BKR: Risk/Reward는 56~58 지지 후 목표 70~74, 손절 53~54일 때 1:3 가능하다. Kill Condition은 IET orders 둔화, data-center order conversion 지연, 유가 급락에 따른 energy multiple 훼손, 53달러 이탈. Upcoming Catalysts는 IET backlog 전환, AI power 프로젝트 업데이트, 8월 에너지 capex commentary다.
+- ANET: Risk/Reward는 185~195 지지 후 목표 235~250, 손절 170~176일 때 1:3에 접근한다. Kill Condition은 Q2 이후 가이던스 해석 훼손, cloud titan 주문 둔화, 176달러 종가 이탈. Upcoming Catalysts는 2026-08-05 본장 실적 반응, AI cluster networking 수요 재평가다.
+- DDOG: Risk/Reward는 262~275 눌림 또는 Q2 후 276.70 지지에서 목표 330~350, 손절 248~255일 때만 1:3에 접근한다. Kill Condition은 Q2 growth 둔화, net retention 약화, AI workload 수요가 narrative에 그침, 248달러 이탈. Upcoming Catalysts는 2026-08-06 08:00 ET Q2 earnings다.
+- ALAB: Risk/Reward는 350~360 지지 후 목표 430~460, 손절 320~330일 때 1:3 가능하다. Kill Condition은 Scorpio ramp 지연, hyperscaler concentration 우려, gross margin peak-out, 329달러 이탈. Upcoming Catalysts는 Q2 call 후 analyst revision, Scorpio X-Series production ramp다.
+- BKR: Risk/Reward는 58~61 지지 후 목표 72~76, 손절 53~55일 때 1:3 가능하다. Kill Condition은 IET orders 둔화, data-center power order conversion 지연, 유가 급락 또는 Middle East 불확실성 확대, 53달러 이탈. Upcoming Catalysts는 IET backlog 전환, data-center power awards, Chart integration update다.
+- PWR: Risk/Reward는 680~695 지지 후 목표 820~860, 손절 630~645일 때 1:3 가능하다. Kill Condition은 backlog quality 약화, grid/project delay, Texas interconnection 규제 확산, 643달러 이탈. Upcoming Catalysts는 Q2 후 기관 수급, grid capex commentary, utility/data-center project updates다.
 
 ## 8. Hidden Gems
 
 | 후보 | 왜 아직 덜 알려졌나 | 확인할 근거 | 리스크 |
 |---|---|---|---|
-| NET | PLTR형 software 후보지만 8월 6일 장후 실적 전 기대가 이미 높다. | 278.98달러, 20DMA +3.2%, 50DMA +12.0%; 280 회복과 Q2 guidance 확인 | Q2 실망, large customer 둔화, AI traffic narrative 과열 |
-| ZS / CRWD | security AI 운영 계층 후보지만 PLTR형 운영 소프트웨어 대비 thesis가 보안 카테고리에 갇힐 수 있다. | ZS 20DMA +2.7%, CRWD 20DMA -0.7%; enterprise AI security attach 확인 | 경쟁 심화, valuation 부담, guidance 둔화 |
-| PWR / CEG / FIX | AI grid·전력 시공 thesis는 강하지만 Top 5보다 가격 구조가 덜 깨끗하다. | PWR 20DMA +4.0% but 50DMA -2.0%; CEG 20DMA +1.8%; FIX 20DMA +0.4% | project delay, rate sensitivity, policy/utility approval |
-| KTOS / AVAV | RKLB형 방산·무인시스템 실행력 후보지만 실적 확인 전 가격 구조가 약하다. | KTOS 20DMA -3.4%, AVAV 20DMA -0.6%; backlog·margin·program timing 확인 | program delay, defense budget timing, 유동성 |
-| ALAB / COHR / CIEN / LITE / CRDO | optical networking과 interconnect는 AVGO형 병목 후보지만 최근 가격 구조가 약하다. | ALAB -7.4%, COHR -10.1%, CIEN -6.7%, LITE -4.2%, CRDO -8.1% vs 20DMA | 과열 후 되돌림, 고객 capex 지연, 50DMA 회복 실패 |
-| AMD / SNDK / MU | CPU·memory ETF flow와 실적 이벤트가 있지만 현재는 추세가 Red다. | AMD -7.6%, SNDK -19.5%, MU -9.7% vs 20DMA | 실적 갭다운, AI accelerator 기대 과열, memory cycle reversal |
+| APH | AI interconnect 주문 thesis가 좋지만 connector 대형주라 소프트웨어식 multiple 확장은 제한될 수 있다. | 171.33달러, 20DMA +9.5%, 50DMA +10.1%; 160~165 지지 | record orders 기대가 선반영, 손절선 확대 |
+| SNOW | PLTR형 data operating layer 후보지만 실적이 9월 2일이라 당장 숫자 확인이 늦다. | 316.77달러, 20DMA +14.5%, 50DMA +25.0%; 300~305 지지 | AI 기대 과열, product revenue/NRR 확인 전 추격 |
+| NET | AI traffic/security edge 후보지만 DDOG보다 Q2 이벤트 리스크가 크다. | 301.33달러, 20DMA +10.0%, 50DMA +19.4%; Q2 후 280~300 지지 | 8월 6일 장후 Q2, valuation 부담 |
+| MRVL / COHR / LITE | optical networking money-flow가 살아났지만 오늘 급등의 일부는 FCC 규제 가능성 뉴스다. | MRVL +12.8%, COHR +12.4%, LITE +8.9%; 50DMA 회복 여부 | 정책 뉴스 번복, 고객 지연, one-day hype |
+| AVAV / KTOS | RKLB형 방산·무인시스템 실행력 후보지만 실적과 프로그램 timing 확인이 더 필요하다. | AVAV 20DMA +12.8%, KTOS 20DMA +7.8%; backlog·margin 확인 | defense budget timing, 프로그램 지연 |
+| GEV / VRT / CEG / FIX | power thesis는 강하지만 오늘 Top 5보다 가격 구조 또는 규제 노출이 덜 깨끗하다. | GEV 20DMA -0.7%, VRT -5.8%, CEG +2.4%, FIX +2.9% | Texas 전력망 규제, 50DMA 회복 실패 |
+| AMD / MU | AI compute와 memory flow 확인용이지만 오늘은 기대치 부담과 cycle risk가 크다. | AMD 20DMA +1.3% but 장후 하락, MU 20DMA -1.0% | 실적 후 갭다운, AI accelerator 기대 과열 |
 
 ## 9. Owned but Re-rated
 
-- `PLTR`: 신규 후보 랭킹 제외. Q2 매출 +93%, U.S. commercial 급성장, 2026년 매출 가이던스 81.5억~81.58억 달러 상향은 business thesis 강화다. 그러나 보유 관리에서만 판단하고, 신규 후보에는 `DDOG/SNOW/NET`을 PLTR형 확산 후보로 연결한다.
-- `AVGO`: 신규 후보 랭킹 제외. AI ASIC/네트워킹 기준점이며 `ANET/APH/ALAB/COHR/CIEN/LITE/CRDO`는 AVGO형 병목 후보를 찾기 위한 비교군이다.
-- `RKLB`: 신규 후보 랭킹 제외. Iridium 인수는 space infrastructure thesis를 넓히지만 $3.6B bridge loan, refinancing, 승인, 희석 리스크가 남아 있어 신규 후보보다 보유 리스크 관리 대상이다.
-- `NVDA/TSM/RMBS/DRAM/NVTS/GLW/RXT/국내 AI ETF`: 신규 후보 랭킹 제외. AI compute, foundry, memory interface, power semiconductor, optical, AI infrastructure thesis와 연결되지만 현재는 보유 관리에서만 판단한다.
-- `CRDO/ETN`: 최근 매도 완료 포지션이다. 재진입 watch는 가능하지만 오늘 신규 후보 Top 5에는 넣지 않는다.
+- `PLTR`: 신규 후보 랭킹 제외. Q2 이후 AI operating software 기준점은 더 강해졌고, `DDOG/SNOW/NET`을 PLTR형 후보로 비교하는 기준점으로만 사용한다.
+- `AVGO`: 신규 후보 랭킹 제외. AI ASIC/networking 병목 기준점이며 `ANET/ALAB/APH/MRVL/COHR/LITE/CRDO`는 AVGO형 병목 후보 비교군이다.
+- `RKLB`: 신규 후보 랭킹 제외. 우주 인프라 기준점이며 `AVAV/KTOS`는 실행력 후보로 관찰하되 RKLB 보유 리스크 관리는 별도다.
+- `NVDA/TSM/RMBS/NVTS/GLW/RXT/DRAM/국내 AI ETF`: 신규 후보 랭킹 제외. 오늘 AI 인프라 money-flow와 연결되지만 보유 관리에서만 판단한다.
+- `CRDO/ETN`: 최근 매도 완료 포지션이다. 재진입 Watch는 가능하지만 신규 Top 5에는 넣지 않는다.
 
 ## 10. Thesis Top 5 Ranking
 
-1. DDOG - Money Flow 20/20, Thesis 27/30, Stock 13/15, Timing 13/20, Risk/Reward 11/15 = 84. PLTR 이후 AI 운영 소프트웨어 확산 후보 중 가장 직접적이지만 8월 6일 실적 전 추격은 금지다.
-2. ANET - Money Flow 19/20, Thesis 27/30, Stock 14/15, Timing 13/20, Risk/Reward 10/15 = 83. AI networking 병목 후보 중 가격 구조가 깨끗하지만 8월 4일 장후 Q2 전이다.
-3. SNOW - Money Flow 19/20, Thesis 26/30, Stock 13/15, Timing 15/20, Risk/Reward 9/15 = 82. AI data cloud가 PLTR형 운영 데이터 계층으로 재평가될 수 있지만 돌파 후 추격 가격은 손절선이 넓다.
-4. APH - Money Flow 19/20, Thesis 28/30, Stock 14/15, Timing 10/20, Risk/Reward 10/15 = 81. AVGO형 physical interconnect thesis가 orders와 가격 회복으로 같이 강화됐다.
-5. BKR - Money Flow 19/20, Thesis 27/30, Stock 12/15, Timing 10/20, Risk/Reward 11/15 = 79. AI power orders가 실제 숫자로 확인됐고 50DMA 위에 올라섰지만 에너지 변동성 때문에 조건부 watch다.
+1. ANET - Money Flow 20/20, Thesis 29/30, Stock 14/15, Timing 13/20, Risk/Reward 10/15 = 86. AI networking 수요가 Q2와 가이던스로 확인됐지만 실적 후 갭 추격은 금지다.
+2. DDOG - Money Flow 20/20, Thesis 27/30, Stock 13/15, Timing 13/20, Risk/Reward 11/15 = 84. PLTR 이후 AI 운영 소프트웨어 확산 후보 중 가장 직접적이지만 Q2 전 이벤트 리스크가 크다.
+3. ALAB - Money Flow 19/20, Thesis 28/30, Stock 13/15, Timing 12/20, Risk/Reward 11/15 = 83. AI fabric/connectivity 성장률은 강하지만 50DMA 회복 직후 변동성이 높다.
+4. BKR - Money Flow 19/20, Thesis 28/30, Stock 12/15, Timing 11/20, Risk/Reward 11/15 = 81. Data-center power orders가 실제 숫자로 확인됐고 60달러대 안착 여부가 핵심이다.
+5. PWR - Money Flow 19/20, Thesis 28/30, Stock 12/15, Timing 10/20, Risk/Reward 11/15 = 80. Grid backlog와 Q2가 강하지만 규제·프로젝트 지연 리스크 때문에 조건부 Watch다.
 
 ## 11. Upcoming Catalysts
 
 | 날짜 | 종목/테마 | 이벤트 | Thesis 영향 |
 |---|---|---|---|
-| 2026-08-04 KST | 국내 ETF | AI데이터센터·피지컬AI·CPU반도체 등 ETF 5종 첫 거래 | ETF발 money-flow 확인. 편입 종목은 매수 근거가 아니라 후보 universe 확인용이다. |
-| 2026-08-04 미국장 후 | ANET | Q2 2026 earnings | AI networking 수요, cloud capex, 1.6T adoption 확인. |
-| 2026-08-04 미국장 후 | AMD | Q2 2026 earnings | AI accelerator와 CPU/AI silicon money-flow 확인. AMD 자체는 20DMA 회복 전 랭킹 제외. |
-| 2026-08-04 미국장 후 | KTOS | Q2 2026 earnings | unmanned systems, hypersonic, satellite ground systems 수주와 margin 확인. |
-| 2026-08-06 미국장 전 | DDOG | Q2 FY2026 earnings | AI observability 수요와 enterprise expansion이 Top rank를 유지할지 확인. |
-| 2026-08-06 미국장 후 | NET | Q2 2026 earnings | AI traffic, security, RPO growth와 Q3 guidance 확인. |
-| 2026-09-02 미국장 후 | SNOW | Q2 FY2027 earnings | AI Data Cloud, Cortex, Snowflake Intelligence, NRR와 product revenue 재가속 확인. |
-| 2026년 8월 | APH/BKR/PWR/FIX/CEG/GEV/VRT | data-center power/interconnect 후속 해석 | orders/backlog가 margin과 cash flow로 전환되는지 확인한다. |
+| 2026-08-05 미국장 | ANET / ALAB / AMD | 실적 후 첫 정규장 반응 | 장후 gap이 기관 매수로 확정되는지, 아니면 sell-the-news로 꺾이는지 확인한다. |
+| 2026-08-06 08:00 ET | DDOG | Q2 FY2026 earnings call | AI observability 수요와 enterprise expansion이 Top 2를 유지할지 결정한다. |
+| 2026-08-06 미국장 후 | NET | Q2 earnings | AI traffic/security edge thesis가 DDOG/SNOW와 비교 가능한지 확인한다. |
+| 2026-08-06 KST | 국내 ETF | 신규상장 공시 장전 재확인 | 오늘 기준 없음. 장전 공시가 나오면 ETF flow 신호만 반영하고 매수 근거로 쓰지 않는다. |
+| 2026-08-05~08 | MRVL / COHR / LITE | FCC 중국 optical transceiver 규제 보도 후속 | 정책 뉴스가 실제 규제·수주 전환으로 이어지는지 확인한다. |
+| 2026-08월 | BKR / PWR / GEV / VRT / CEG / FIX | data-center power/grid 후속 수주와 규제 | Texas interconnection 이슈가 power trade를 훼손하는지, off-grid 장비 수요로 이동하는지 본다. |
+| 2026-09-02 | SNOW | Q2 FY2027 earnings | AI Data Cloud와 product revenue 재가속 여부를 확인한다. |
 
 ## 12. 다음 09:00 Watch 반영
 
-1. Watch 상단은 `DDOG`, `ANET`, `SNOW`, `APH`, `BKR`로 업데이트하되 모두 `매수 아님, 조건 대기`로 표시한다.
-2. 가격 트리거는 DDOG 276.70 돌파 또는 258~264 지지, ANET 174~180 지지, SNOW 284.99 위 지지 또는 272~280 눌림, APH 157~160 지지, BKR 60~61 안착으로 둔다.
-3. 2026-08-05 국내 신규 ETF는 `없음`으로 반영한다. 확인 기준은 KRX/KIND 관련 화면과 공개 웹 검색에서 8월 5일 신규 ETF 공지가 없었다는 점이다.
-4. 2026-08-04 국내 신규 ETF 5종은 이미 상장된 money-flow 신호로만 사용한다. AI데이터센터·피지컬AI·CPU·memory 흐름은 단독주 매수 근거가 아니라 후보 universe 확인용이다.
-5. `AMD/SNDK/MU/GEV/VRT/ALAB/COHR/CIEN/LITE/CRDO/KTOS/AVAV`는 핵심 thesis 후보지만 Top 5보다 timing이나 event risk가 약하므로 `좋은 thesis, 조건 대기`로 분리한다.
-6. 보유 `PLTR/AVGO/RKLB/NVDA/TSM/RMBS/NVTS/GLW/RXT`와 국내 AI ETF는 신규 후보 랭킹에 넣지 말고 09:00 보유 관리에서만 판단한다.
+1. Watch 상단은 `ANET`, `DDOG`, `ALAB`, `BKR`, `PWR`로 업데이트하되 모두 `매수 아님, 조건 대기`로 표시한다.
+2. 가격 트리거는 ANET 185~195 지지, DDOG Q2 후 276.70 지지 또는 262~275 눌림, ALAB 350~360 지지, BKR 60~61 지지, PWR 680~695 지지로 둔다.
+3. 2026-08-06 국내 신규 ETF는 현재 `없음`으로 반영한다. 다음 09:00에서 KRX/KIND 장전 공지를 재확인한다.
+4. `SNOW/NET/APH/MRVL/COHR/LITE/AMD/MU`는 핵심 thesis 후보지만 오늘은 Top 5보다 과열·뉴스성·실적 리스크가 크므로 `좋은 thesis, 추격 금지`로 분리한다.
+5. 보유 `PLTR/AVGO/RKLB/NVDA/TSM/RMBS/NVTS/GLW/RXT`와 국내 AI ETF는 신규 후보 랭킹에 넣지 말고 09:00 보유 관리에서만 판단한다.
 
 ## 13. 확인 근거 링크
 
-- Yahoo Finance chart API: 미국 후보 2026-08-03 가격 및 20DMA/21EMA/50DMA 계산: https://finance.yahoo.com/
-- Palantir Q2 2026 결과 보도와 IR 링크: https://www.businesswire.com/news/home/20260713475194/en/Palantir-Announces-Date-of-Second-Quarter-2026-Earnings-Release-and-Webcast
-- Arista Networks Q2 2026 earnings 일정: https://investors.arista.com/Events/default.aspx
-- Datadog Q2 FY2026 earnings 일정: https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-date-second-quarter-fiscal-year-2026-earnings/
-- Cloudflare Q2 2026 earnings 일정: https://cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Second-Quarter-2026-Financial-Results/default.aspx
-- Snowflake Q2 FY2027 earnings 일정: https://www.snowflake.com/en/news/press-releases/snowflake-to-announce-financial-results-for-the-second-quarter-of-fiscal-2027/
-- 한국거래소 ETF 5종 2026-08-04 신규상장 보도: https://www.yna.co.kr/view/AKR20260731140300008
-- KODEX 미국CPU반도체TOP10 2026-08-04 상장 자료: https://www.samsungfund.com/etf/insight/newsroom/view.do?seq=78434
-- Whale Insight 국민연금 2026년 1분기 포트폴리오: https://whale-insight.com/legend/nps
-- Rocket Lab / Iridium acquisition financing context: https://payloadspace.com/rocket-lab-enters-the-satcom-market-with-8b-iridium-deal/
+- Yahoo Finance chart API: 미국 후보 2026-08-04 가격 및 20DMA/21EMA/50DMA 계산: https://finance.yahoo.com/
+- Arista Networks IR: https://investors.arista.com/
+- Datadog IR Q2 2026 일정: https://investors.datadoghq.com/investor-relations/
+- Astera Labs Q2 2026 results: https://ir.asteralabs.com/news-events/news-releases/
+- Baker Hughes Q2 2026 results: https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-Second-Quarter-2026-Results/default.aspx
+- Quanta Services Q2 2026 results: https://www.prnewswire.com/news-releases/quanta-services-reports-second-quarter-2026-results-302838646.html
+- Snowflake Q2 FY2027 일정: https://www.snowflake.com/en/news/press-releases/snowflake-to-announce-financial-results-for-the-second-quarter-of-fiscal-2027/
+- KRX Data Marketplace: https://data.krx.co.kr/
+- KIND ETF/ELW/ETN/상장형수익증권 공시: https://kind.krx.co.kr/disclosure/disclosurebystocktype.do?method=searchDisclosureByStockTypeEtf
+- National Pension Service 13F summary: https://www.holdingschannel.com/13f/national-pension-service-top-holdings/
