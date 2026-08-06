@@ -50,21 +50,6 @@ if (!report) {
   data.reports.unshift(report);
 }
 
-for (const defaultSlot of slotOrder) {
-  report.slots[defaultSlot] ||= {
-    title: defaultSlot === "09:00"
-      ? "장시작 Thesis 리포트"
-      : defaultSlot === "15:30"
-        ? "장마감 Thesis 리포트"
-        : "신규 Thesis 후보군 리포트",
-    status: "pending",
-    scheduledAt: kstSlotScheduledAt(date, defaultSlot).toISOString(),
-    summary: "자동화 실행 대기 중입니다.",
-    markdown: "",
-  };
-  report.slots[defaultSlot].scheduledAt ||= kstSlotScheduledAt(date, defaultSlot).toISOString();
-}
-
 const now = new Date();
 const scheduledAt = kstSlotScheduledAt(date, slot);
 const allowFutureDone = process.env.ROBIN_AUTOMATION_ALLOW_FUTURE_DONE === "1";

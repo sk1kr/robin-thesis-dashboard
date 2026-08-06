@@ -1,93 +1,91 @@
-# 2026-08-06 장시작 Thesis 리포트
+# 2026-08-07 장시작 Thesis 리포트
 
 목적: 내가 가진 종목이 오늘도 들고갈 만한가?
 
-> 오늘 결론: `핵심 AI 인프라와 지수 포지션은 오늘도 들고갈 만하다.` 다만 PLTR는 Thesis 강화와 가격 과열을 분리하고, 국내 AI반도체·메모리 ETF는 Thesis 훼손이 아니라 단기 추세선 실패로 관리한다.
-> 지금 할 일: `NVDA/AVGO/TSM/GOOGL/지수 ETF`는 보유하고, `PLTR/RKLB`는 추격하지 않으며, `0181B0/0167A0/RMBS/DRAM/GLW`는 추가매수 없이 20DMA 회복을 기다린다.
-> 건드리지 말 것: 한국장 급락만 보고 AI·HBM Thesis 붕괴를 선언하거나 물타기하지 말고, `PLTR/SATL`의 20DMA 상단 가격과 `CONY/DXYZ/XOVR` 구조상품 반등을 매수 근거로 삼지 않는다.
-> 가격 기준: 미국 보유주는 Yahoo Finance chart API 기준 2026-08-05 정규장 종가, 한국·일본 보유주는 2026-08-06 10:29 KST 전후 장중 가격으로 20DMA/50DMA를 계산했다.
-> 뉴스 기준: 2026-08-05 09:00 KST 이후 2026-08-06 10:29 KST까지 미국장 마감, Palantir Q2 후속 반응, Rambus·Corning Q2 근거, Rocket Lab 이벤트를 확인했다.
-> 미확인 항목: 한국 ETF별 실시간 iNAV·기관/외국인 최종 수급, 2026-08-06 미국 프리마켓 전체 호가, `INFQ/FLY/BRUN/AMBO/KEEL`의 정확 상장·가격 데이터, Robin의 2026-06-23 이후 실제 매매 여부는 확인하지 못했다.
+> 오늘 결론: `핵심 AI 인프라·지수 포지션은 오늘도 들고갈 만하다.` NVDA·AVGO·TSM은 Money Flow와 단기 추세선이 유지됐고, PLTR는 사업 Thesis 강화와 가격 과열을 분리한다. 국내 메모리 ETF·DRAM은 Thesis 붕괴가 아니라 Timing 경고다.
+> 지금 할 일: `NVDA/AVGO/TSM/GOOGL/지수 ETF`는 보유하고, `PLTR/RKLB/SATL`은 추격하지 않으며, `RMBS/GLW`는 20DMA 안착, `DRAM/국내 메모리 ETF`는 20DMA 회복을 기다린다.
+> 건드리지 말 것: 하락폭만 보고 `DRAM/0181B0/0167A0/CONY/DXYZ/XOVR`를 물타기하지 말고, PLTR·SATL의 큰 20DMA 상단 간격이나 RKLB 실적 전 반등을 신규 매수 근거로 삼지 않는다.
+> 가격 기준: 미국 보유주는 Yahoo Finance chart API 기준 2026-08-06 정규장 종가, 한국 보유 ETF는 2026-08-06 종가로 20DMA/50DMA를 계산했다. 일본 LY Corp와 Mirae Asset은 데이터 시차로 2026-08-05 종가를 사용했다.
+> 뉴스 기준: 2026-08-06 09:00 KST 이후 2026-08-07 09:00 KST까지 미국장, Rocket Lab Q2 일정, Corning Q2·AI 광연결 근거, Datadog 실적일 가격 반응을 확인했다.
+> 미확인 항목: 2026-08-07 한국장 개장 직후 iNAV·기관/외국인 수급, Datadog Q2 공식 보도자료의 세부 수치, `INFQ/FLY/BRUN/AMBO/KEEL`의 정확 상장·가격 데이터, Robin의 2026-06-23 이후 실제 매매 여부는 확인하지 못했다.
 
 ## 1. Overnight Money Flow
 
-- Money Flow: S&P 500은 -0.17%, Nasdaq은 -0.83%였지만 둘 다 20DMA 위다. 반도체 지수도 -1.40%였으나 20DMA +0.57%이고, 개별주에서는 NVDA +3.43%, AVGO 보합으로 자금이 `AI 전체`보다 검증된 compute·ASIC 리더에 남았다. 한국장은 10:29 KST 기준 KOSPI 약 -4%로 위험회피가 강해 국내 집중 ETF의 변동성이 확대됐다.
-- Thesis: PLTR Q2 매출은 전년 대비 93% 증가했고 회사는 다음 분기 및 연간 가이던스를 높여 enterprise AI Thesis가 강화됐다. Rambus는 Q2 사상 최고 매출과 제품 매출 20% 이상 성장을 발표했고, Corning은 NVIDIA와 광연결 생산능력 확대 계획을 공개해 memory-interface·optical Thesis의 사업 근거는 유지된다. 가격 하락만으로 이 Thesis들을 약화 판정하지 않는다.
-- Stock: 현재 보유군에서 같은 AI Money Flow의 가장 깨끗한 표현은 `NVDA/AVGO`, 그 다음은 `TSM`이다. `PLTR`는 사업 근거가 가장 크게 강화됐지만 20DMA +20.5%라 좋은 Thesis와 좋은 매수가격이 다르다. 국내 메모리 ETF는 같은 Thesis라도 집중도·변동성 때문에 지금은 더 나쁜 vehicle이다.
-- Timing: `NVDA +6.8%`, `AVGO +7.4%`, `TSM +0.8%` vs 20DMA로 보유 가능하다. `RMBS -2.1%`, `DRAM -2.0%`, `GLW -0.3%`는 thesis OK, timing wait다. 국내 `0181B0 -11.1%`, `0167A0 -10.5%` vs 20DMA는 Red 후보지만 사업 악화 뉴스가 동반되지 않아 즉시 Thesis 약화로 보지 않는다.
+- Money Flow: S&P 500은 -0.22%, Nasdaq은 -0.19%였지만 각각 20DMA 대비 +2.5%, +2.6%다. 반도체 지수는 +0.65%였고 AVGO +0.8%, TSM +1.2%, NVDA -0.6%로 검증된 AI compute·ASIC·foundry 축에 자금이 남았다. 전면 위험회피가 아니라 종목 선별 장세다.
+- Thesis: Corning의 Q2 매출·현금흐름과 NVIDIA·Amazon 광연결 계약은 AI optical 병목을 지지한다. Palantir의 직전 Q2 성장·가이던스 강화도 유효하다. 반면 Datadog -17.8%는 AI software 전체 붕괴의 증거가 아니라 실적·가이던스 기대치에 민감한 고밸류 성장주의 경고다.
+- Stock: 보유 AI Thesis의 가장 깨끗한 표현은 `NVDA/AVGO`, 다음은 `TSM`이다. `PLTR`는 사업 근거는 강하지만 20DMA +16.8%다. `RMBS/GLW`는 사업 근거와 가격 회복이 가까워졌고, `DRAM/국내 메모리 ETF`는 집중도와 추세 때문에 더 나쁜 vehicle이다.
+- Timing: NVDA +6.2%, AVGO +8.0%, TSM +2.2% vs 20DMA로 Hold 가능하다. RMBS -0.9%는 회복 직전, GLW +1.8%는 회복했다. DRAM -4.8%, 0181B0 -11.2%, 0167A0 -11.4%는 `thesis OK, timing wait`이며 추가매수 구간이 아니다.
 
 ## 2. 보유 종목 Dashboard
 
 | 그룹 | 종목 | 액션 | 이유 |
 |---|---|---|---|
-| 오늘 매수 가능 | VOO, SPYM, SPYG, QQQM | 지수 분할매수만 | 모두 20DMA 위다. 개별 AI 고평가 위험을 줄이는 자산배분 목적이며 한 번에 추격하지 않는다. |
-| 오늘 매수 가능 | SGOV, SCHD | 방어 목적만 | 현금성·배당 완충 역할이다. SGOV는 20DMA -0.1%, SCHD는 +1.7%로 역할 변화가 없다. |
-| 오늘 매수 가능 | NVDA, AVGO | 눌림에서 소액만 | AI compute·ASIC Money Flow와 20/50DMA가 함께 살아 있다. 이미 단기선보다 6~7% 높아 시초 추격은 금지한다. |
-| 보유만 | TSM, GOOGL | Hold | TSM은 20DMA +0.8%지만 50DMA -2.8%, GOOGL은 20DMA +3.9%이나 하루 -4.0%다. 사업 Thesis 훼손보다 가격 재평가 구간이다. |
-| 보유만 | PLTR | Thesis 강화, 추가 금지 | Q2와 가이던스는 강화됐지만 20DMA +20.5%다. 실적 급등 뒤 Risk/Reward가 1:3에 못 미쳐 보유만 한다. |
-| 보유만 | RKLB | Hold, 추가 금지 | 20DMA +6.3%로 회복했지만 50DMA -19.8%다. Iridium 인수의 $3.6B 브리지 금융·승인·희석 리스크를 Q2 전까지 확인한다. |
-| 보유만 | 국내 AI전력 ETF | 20DMA 유지 확인 | 487240·491820·0117V0는 20DMA +4~6%, 487230은 -5.3%다. 전부 50DMA 아래라 회복 확정이 아니다. |
-| 보유만 | LY Corp, AGNC, 리츠 ETF | 역할 유지 | LY는 20DMA +4.0%, AGNC -2.1%, 국내 리츠는 20DMA 근처다. 핵심 AI Thesis와 분리한 비핵심 sleeve다. |
-| 보유만 | ABCL, GRAB, RXT | 소액 유지 | GRAB·RXT는 20DMA 위지만 50DMA 확인이 필요하고 ABCL은 20DMA 아래다. 검증 가능한 실적·현금흐름 전 확대하지 않는다. |
-| 축소 후보 | 0181B0, 0167A0 | 추가 금지, 반등 시 비중 점검 | 20DMA 대비 각각 -11.1%, -10.5%다. HBM Thesis 훼손은 미확인이지만 포트폴리오 집중과 타이밍 위험이 크다. |
-| 축소 후보 | RMBS, DRAM, GLW | 20DMA 회복 대기 | 사업 근거는 유지되지만 각각 20DMA -2.1%, -2.0%, -0.3%이고 50DMA는 크게 아래다. 물타기하지 않는다. |
-| 축소 후보 | Mirae Asset, KODEX 증권 | 손실복구 매수 금지 | Mirae는 20DMA -6.7%, 50DMA -22.9%다. 핵심 Thesis가 아닌 증권 sleeve의 보유 이유를 반등 시 재검토한다. |
-| 관찰만 | IONQ, RGTI, NVTS, PL, SATL | Watch, not chase | 일부는 20DMA 위지만 모두 50DMA 아래이거나 새 고객·수주 근거가 없다. 하루 반등은 Thesis 강화가 아니다. |
+| 오늘 매수 가능 | VOO, SPYM, SPYG, QQQM | 지수 분할매수만 | 모두 20DMA 위다. 개별 AI 고평가 위험을 줄이는 자산배분 목적이며 일괄 추격은 하지 않는다. |
+| 오늘 매수 가능 | SGOV, SCHD | 방어 목적만 | SGOV는 현금성, SCHD는 배당 완충 역할이다. 가격 하락 반등 목적의 매수가 아니다. |
+| 오늘 매수 가능 | NVDA, AVGO | 눌림에서 소액만 | AI compute·ASIC Money Flow와 20/50DMA가 함께 살아 있다. 시초가가 전일 고점에 붙으면 추격하지 않는다. |
+| 보유만 | TSM, GOOGL | Hold | 둘 다 20DMA 위다. TSM·GOOGL은 50DMA 부근이라 추가보다 지지 확인이 우선이다. |
+| 보유만 | PLTR | Thesis 강화 유지, 추가 금지 | 사업 근거는 강화됐지만 155.07달러가 20DMA보다 16.8% 높아 Risk/Reward가 불리하다. |
+| 보유만 | RKLB | Hold, 실적 전 추가 금지 | 76.45달러로 20DMA +9.1%이나 50DMA -16.8%다. 8월 10일 Q2와 Iridium 거래 금융·희석 리스크를 먼저 본다. |
+| 보유만 | RMBS, GLW | 20DMA 안착 확인 | RMBS는 20DMA -0.9%, GLW는 +1.8%다. memory interface·optical 사업 근거는 유지되지만 한 번의 반등만으로 증액하지 않는다. |
+| 보유만 | 국내 AI전력 ETF | 20DMA 유지 확인 | 487240·491820은 20DMA +4% 안팎, 487230은 -4.9%다. 전부 50DMA 아래라 회복 확정은 아니다. |
+| 보유만 | LY Corp, AGNC, 리츠 ETF | 비핵심 sleeve 유지 | LY는 20DMA 위, AGNC는 소폭 아래다. 핵심 AI Thesis와 분리해 배당·지역 분산 역할만 관리한다. |
+| 보유만 | ABCL, GRAB, RXT | 소액 유지 | 모두 20DMA 위지만 검증 가능한 실적·현금흐름 근거가 약하다. 확대하지 않는다. |
+| 축소 후보 | DRAM, 0181B0, 0167A0 | 추가 금지, 반등 시 집중도 축소 검토 | 각각 20DMA -4.8%, -11.2%, -11.4%다. HBM Thesis 훼손은 미확인이지만 포트폴리오 집중과 Timing 위험이 크다. |
+| 축소 후보 | 446770, 381180 | 20DMA 회복 대기 | 각각 20DMA -5.9%, -3.7%다. 가격 하락만으로 Thesis 약화는 아니지만 물타기는 금지한다. |
+| 축소 후보 | Mirae Asset, KODEX 증권 | 손실복구 매수 금지 | Mirae는 20DMA -4.8%, 50DMA -21.8%다. 비핵심 증권 sleeve의 보유 이유를 반등 시 재검토한다. |
+| 관찰만 | IONQ, RGTI, NVTS, PL, SATL | Watch, not chase | 20DMA 위여도 50DMA 아래이거나 새 고객·수주 근거가 없다. SATL은 20DMA +28.7%라 추격 위험이 가장 크다. |
 | 관찰만 | CONY, DXYZ, XOVR, FLY | Sell/Trim 검토 | NAV 침식·분배·프리미엄·유동성·상장 데이터 리스크가 핵심이다. 가격 반등이 구조를 고치지 않는다. |
-| 관찰만 | TSLA residual, INFQ, BRUN, AMBO, KEEL | 확대 금지 | TSLA는 residual only이고 나머지는 정확한 상장·가격 검증이 부족하다. active Thesis 포지션으로 키우지 않는다. |
+| 관찰만 | TSLA residual, INFQ, BRUN, AMBO, KEEL | 확대 금지 | TSLA는 residual only이고 나머지는 정확한 상장·가격 검증이 부족하다. active Thesis로 키우지 않는다. |
 
 ## 3. 오늘 반드시 확인할 가격/뉴스 트리거 5개
 
-1. `NVDA/AVGO/TSM`: NVDA 205달러대·AVGO 389달러대·TSM 411달러대의 단기 추세선(20DMA)을 지키는지 본다. 셋 중 두 종목 이상이 이탈하면 AI leader Money Flow 둔화 경보다.
-2. `PLTR`: 158.43달러에서 20DMA 131.43달러와의 +20.5% 간격이 거래량 감소와 함께 정상화되는지 본다. 실적 강화는 유지하되 신규 추격은 하지 않는다.
-3. `RMBS/DRAM/GLW`: 각각 99.39달러·54.85달러·157.19달러의 20DMA 회복 여부를 본다. Rambus·Corning의 사업 근거가 좋아도 가격 확인 전 추가하지 않는다.
-4. `국내 AI ETF`: 0181B0 10,600원대, 0167A0 17,365원대의 20DMA 이탈 폭이 더 커지는지와 고객·가이던스 악화 뉴스가 동반되는지 분리해 확인한다. 국내 AI전력 ETF 487240·491820·0117V0는 20DMA 위 유지가 기준이다.
-5. `RKLB/IRDM`: 70.38달러 20DMA를 지키는지, 8월 10일 Q2 전 Neutron 일정·Iridium 거래의 금융비용·희석·승인 관련 새 공시가 나오는지 확인한다.
+1. `NVDA/AVGO/TSM`: 각각 단기 추세선(20DMA) 206.16달러·390.52달러·410.03달러를 지키는지 본다. 셋 중 둘 이상이 거래량을 동반해 이탈하면 AI leader Money Flow 둔화 경보다.
+2. `PLTR/DDOG`: PLTR 20DMA 132.73달러와의 간격이 줄어드는지, DDOG -17.8% 반응이 다른 AI software로 확산되는지 본다. PLTR 사업 Thesis와 성장주 멀티플 압축을 분리한다.
+3. `RMBS/GLW/DRAM`: 20DMA 98.57달러·155.49달러·54.22달러를 각각 지지 또는 회복하는지 본다. RMBS·GLW는 안착 전 추가 금지, DRAM은 54.22달러 회복 전 물타기 금지다.
+4. `국내 AI ETF`: 0181B0 10,599원·0167A0 17,357원의 20DMA 이탈 폭이 줄어드는지와 고객·가이던스 악화 뉴스가 동반되는지 분리 확인한다. 487240·491820은 20DMA 위 유지가 기준이다.
+5. `RKLB/IRDM`: RKLB 70.08달러 20DMA를 지키는지, 8월 10일 Q2 전 Neutron 일정·Iridium 거래의 금융비용·승인·희석 관련 새 공시가 나오는지 확인한다.
 
 ## 4. 단기 추세선 / Alert
 
 | 종목 | 단기 추세선 | Alert | 액션 |
 |---|---|---|---|
-| VOO / SPYM / SPYG / QQQM | 20DMA 대비 +2.3%~+4.0% | No Alert | 지수 exposure 유지, 분할만 |
-| SGOV / SCHD | -0.1% / +1.7% vs 20DMA | No Alert | 완충 역할 유지 |
-| NVDA / AVGO | +6.8% / +7.4% vs 20DMA, 50DMA도 위 | No~Yellow | 보유, 시초 추격 금지 |
-| TSM / GOOGL | +0.8% / +3.9% vs 20DMA | Yellow | Hold, 50DMA·뉴스 확인 |
-| PLTR | 158.43, 20DMA +20.5% | Yellow: 과열 | Thesis 강화, timing chase 금지 |
-| RKLB | 74.82, 20DMA +6.3%, 50DMA -19.8% | Yellow | Q2·인수 금융 확인 |
-| RMBS / DRAM / GLW | -2.1% / -2.0% / -0.3% vs 20DMA | Yellow | thesis OK, timing wait |
-| 국내 AI전력 ETF | 3종 +4~6%, 487230 -5.3% vs 20DMA | Yellow | 50DMA 아래, 증액 금지 |
-| 국내 AI반도체·메모리 ETF | 446770 -6.1%, 381180 -4.0%, 0181B0 -11.1%, 0167A0 -10.5% | Yellow~Red | 추가 금지, 0181B0·0167A0 Trim Watch |
-| IONQ / RGTI / NVTS / RXT | 20DMA +3.1%~+9.8%, 모두 50DMA 아래 | Yellow | 상용화·수주 확인 전 Watch |
-| PL / SATL | PL -1.4%, SATL +22.8% vs 20DMA | Yellow 양극단 | PL 물타기 금지, SATL 추격 금지 |
-| AGNC / CONY / DXYZ | -2.1% / -5.8% / -3.7% vs 20DMA | Red 후보 | 구조 리스크 우선, 신규자금 금지 |
-| LY / Mirae / 리츠 ETF | LY +4.0%, Mirae -6.7%, 리츠 -0.2%~-2.4% | Yellow 혼재 | 비핵심 sleeve로 관리 |
+| VOO / SPYM / SPYG / QQQM | 20DMA 대비 +2.0%~+3.7% | No Alert | 지수 exposure 유지, 분할만 |
+| SGOV / SCHD | +0.1% / +1.6% vs 20DMA | No Alert | 완충 역할 유지 |
+| NVDA / AVGO | +6.2% / +8.0% vs 20DMA, 50DMA도 위 | No~Yellow | 보유, 시초 추격 금지 |
+| TSM / GOOGL | +2.2% / +3.0% vs 20DMA | Yellow | Hold, 50DMA 부근 확인 |
+| PLTR | 155.07, 20DMA +16.8% | Yellow: 과열 | Thesis 강화, timing chase 금지 |
+| RKLB | 76.45, 20DMA +9.1%, 50DMA -16.8% | Yellow | Q2·인수 금융 확인 |
+| RMBS / GLW / DRAM | -0.9% / +1.8% / -4.8% vs 20DMA | Yellow | RMBS·GLW 안착, DRAM 회복 대기 |
+| 국내 AI전력 ETF | 487240·491820 +4%대, 487230 -4.9% vs 20DMA | Yellow | 50DMA 아래, 증액 금지 |
+| 국내 AI반도체·메모리 ETF | 446770 -5.9%, 381180 -3.7%, 0181B0 -11.2%, 0167A0 -11.4% | Yellow~Red | 추가 금지, 집중도 Trim Watch |
+| IONQ / RGTI / NVTS / RXT / PL | 20DMA +1.4%~+9.4%, 대부분 50DMA 아래 | Yellow | 상용화·수주 확인 전 Watch |
+| SATL | 5.08, 20DMA +28.7%, 50DMA 아래 | Yellow: 가격 과열 | 신규 근거 없는 추격 금지 |
+| AGNC / CONY / DXYZ / XOVR | 20DMA 대비 -1.5% / -5.7% / -1.4% / -0.9% | Red 후보 | 구조 리스크 우선, 신규자금 금지 |
+| LY / Mirae / 리츠 ETF | LY 20DMA 위, Mirae -4.8%, 리츠 실시간선 미확인 | Yellow 혼재 | 비핵심 sleeve로 관리 |
 | INFQ / FLY / BRUN / AMBO / KEEL | 정확 단기선 미확인 | Data Alert | 관찰만, 확대 금지 |
 
 ## 5. 보유 Thesis에 영향을 줄 외부 Watch 후보
 
-- `ANET/ALAB`: AVGO·NVDA·TSM의 AI networking/fabric Money Flow가 실제 고객 주문과 가이던스로 확산되는지 보는 기준이다. 보유 종목이 아니므로 신규매수 제안은 하지 않는다.
-- `DDOG/NET`: PLTR의 AI software 수요가 observability·security로 확산되는지 확인하는 외부 실적 기준이다.
-- `AMD/MU`: NVDA compute와 RMBS·DRAM·국내 메모리 ETF의 cycle 강도를 함께 검증하는 비교군이다.
-- `PWR/BKR/GEV/VRT`: 국내 AI전력 ETF의 Thesis가 실제 backlog·orders·grid capex로 이어지는지 확인하는 기준이다.
-- `IRDM`: RKLB 인수의 거래 조건, 승인, 차입·희석 리스크를 직접 보여주는 외부 변수다.
+- `ANET/ALAB`: ANET은 실적 갭 조정에도 20DMA +8.0%, ALAB은 20DMA를 회복했다. AVGO·NVDA·TSM의 AI networking/fabric Money Flow 확산 기준일 뿐 신규 매수 후보로 올리지 않는다.
+- `DDOG`: 실적일 -17.8%, 20DMA -10.6%다. PLTR의 사업 Thesis를 직접 훼손하지 않지만 고밸류 AI software의 기대치 위험을 보여준다.
+- `AMD/MU`: 둘 다 20DMA 아래다. NVDA compute와 RMBS·DRAM·국내 메모리 ETF의 cycle 강도를 검증하는 비교군이다.
+- `BKR/PWR/GEV/VRT`: BKR는 20DMA 위, 나머지는 20DMA 근처 또는 아래다. 국내 AI전력 ETF의 Thesis가 실제 orders·backlog로 이어지는지 보는 기준이다.
+- `IRDM`: 48.70달러로 20DMA 위다. 가격보다 RKLB 인수의 거래 조건, 승인, 차입·희석 리스크를 직접 보여주는 외부 변수다.
 
 ## 6. 15:30에 확인할 질문
 
 | 질문 | 확인 이유 | 관련 종목 |
 |---|---|---|
-| 국내 급락이 외국인·기관의 구조적 AI 이탈인가, 단기 위험관리 매도인가? | 가격 하락과 Thesis 약화를 구분해야 한다. | 국내 AI반도체·메모리·전력 ETF |
-| 0181B0·0167A0이 20DMA 이탈 폭을 줄였고 고객·가이던스 악화 뉴스는 없었나? | Red timing과 사업 Thesis 훼손을 분리한다. | 0181B0, 0167A0 |
-| NVDA·AVGO·TSM 중 두 종목 이상이 20DMA를 지켰나? | AI 인프라 Money Flow의 폭과 Stock 우선순위를 확인한다. | NVDA, AVGO, TSM, RMBS, DRAM |
-| PLTR의 실적 후 조정이 거래량 감소를 동반했나? | 강화된 Thesis를 유지하면서 과열 Risk/Reward가 개선되는지 본다. | PLTR, DDOG, NET |
-| RKLB·SATL·양자주 강세에 새 수주·고객·현금흐름 근거가 붙었나? | 단순 가격 강세를 Thesis 강화로 오판하지 않기 위해서다. | RKLB, SATL, IONQ, RGTI |
-| CONY·DXYZ·XOVR의 NAV·분배·프리미엄 구조가 실제로 개선됐나? | 반등만으로 구조상품의 보유 근거는 회복되지 않는다. | CONY, DXYZ, XOVR |
+| 국내 메모리 ETF가 20DMA 이탈 폭을 줄였는가, 고객·가이던스 악화 뉴스가 동반됐는가? | 가격 경고와 Thesis 훼손을 분리하기 위해 | DRAM, 446770, 381180, 0181B0, 0167A0 |
+| AI전력 ETF 487240·491820이 20DMA 위를 지키고 487230이 회복했는가? | 전력 Thesis의 한국장 Timing 확인 | 국내 AI전력 ETF |
+| 외국인·기관 수급이 AI·반도체에 재유입됐는가, 단순 지수 반등인가? | Money Flow 지속성 확인 | 국내 AI·증권 ETF |
+| PLTR는 DDOG 급락 전염 없이 과열 간격을 정상화했는가? | 사업 강화와 멀티플 위험 분리 | PLTR, DDOG |
+| RMBS·GLW의 20DMA 회복이 종가까지 유지되고 RKLB Q2 전 새 공시가 나왔는가? | 추가매수 가능 여부와 이벤트 위험 확인 | RMBS, GLW, RKLB, IRDM |
 
-## 7. 확인한 근거 링크
+## 7. 확인 근거
 
-- Yahoo Finance chart API: 2026-08-05 미국 종가 및 2026-08-06 한국·일본 장중 가격, 20DMA/50DMA 계산: https://finance.yahoo.com/
-- AP, 2026-08-05 미국장 마감: https://apnews.com/article/53179dc1c0148c5afeb47379b8f5b5c5
-- Palantir quarterly results: https://investors.palantir.com/financials/quarterly-results/default.aspx/
-- Rambus Q2 2026 results: https://investor.rambus.com/press-releases/press-release-details/2026/Rambus-Reports-Second-Quarter-2026-Financial-Results/default.aspx
-- Corning Q2 2026 results: https://investor.corning.com/news-and-events/news/news-details/2026/Cornings-Strong-Second-Quarter-2026-Financial-Results1-Demonstrate-Progress-on-Recently-Upgraded-Springboard-Plan/default.aspx
-- Rocket Lab investor relations and Q2 schedule: https://investors.rocketlabcorp.com/
-- Rocket Lab / Iridium transaction: https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully
+- [Yahoo Finance: 종가·거래량·20DMA/50DMA 계산 원천](https://finance.yahoo.com/)
+- [AP: 2026-08-06 미국 시장과 실적 시즌 흐름](https://apnews.com/article/2f4f2638cb8430bb7c8e5d59a7b50731)
+- [Rocket Lab IR: 2026-08-10 Q2 실적 발표 일정](https://investors.rocketlabcorp.com/)
+- [Corning IR: Q2 2026 실적과 Amazon·NVIDIA 광연결 계약](https://investor.corning.com/news-and-events/news/news-details/2026/Cornings-Strong-Second-Quarter-2026-Financial-Results1-Demonstrate-Progress-on-Recently-Upgraded-Springboard-Plan/default.aspx)
+- [Datadog IR: Q2 2026 실적 발표 이벤트](https://investors.datadoghq.com/)
