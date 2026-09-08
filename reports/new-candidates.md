@@ -1,22 +1,23 @@
-# 2026-09-07 신규 Thesis 후보군 리포트
+# 2026-09-08 신규 Thesis 후보군 리포트
 
 목적: 아직 안 샀지만 미래의 PLTR, AVGO, RKLB가 될 수 있는 후보를 발굴하기.
 
-> 오늘 결론: 신규 후보 Top 5는 `BKR`, `APH`, `ANET`, `ALAB`, `PWR`이다. ALAB가 9월 4일 +9.8% 급등했지만 50DMA 아래이고, 나머지도 거래량 동반 확정 돌파가 없어 전부 `조건 대기`다.
+> 오늘 결론: 신규 후보 Top 5는 `BKR`, `APH`, `ANET`, `ALAB`, `PWR`이다. 9월 4일 이후 새 미국 현물 가격이 없어 순위는 유지하며, 전 종목이 거래량 동반 진입 조건을 충족하지 못해 `조건 대기`다.
 > 지금 할 일: 9월 8일 미국장 재개 후 BKR 63~65, APH 82~84, ANET 194~197의 지지·돌파와 거래량을 확인한다. ALAB는 300 재지지·332 부근 50DMA 회복 전 추격하지 않는다.
-> 건드리지 말 것: 노동절 휴장 중 비정상 호가, ALAB 하루 급등, AVGO 실적, ETF 편입을 단독 매수 근거로 쓰지 않는다.
+> 건드리지 말 것: 미국장 개장 전 호가, ALAB의 직전 하루 급등, AVGO 호실적, ETF 편입을 단독 매수 근거로 쓰지 않는다.
 > 가격 기준: 미국 후보는 2026-09-04 정규장 종가다. 20DMA·21EMA·50DMA는 9월 3일까지 직접 계산한 Yahoo Finance 일봉에 9월 4일 종가를 반영한 근사치다. 미국장은 9월 7일 노동절 휴장이다.
-> 뉴스 기준: 2026-09-04 13:25 KST 이후 2026-09-07 13:20 KST까지 기업 IR, KRX/KIND 공개 검색, 시장 데이터를 확인했다.
-> 미확인 항목: 9월 8일 국내 ETF 장전 최종 공지, Whale Insight 최신 상세 변동, 후보별 정확한 조정 이동평균, Robin의 2026-06-23 이후 실제 매매는 확인하지 못했다.
+> 뉴스 기준: 2026-09-07 13:20 KST 이후 2026-09-08 13:30 KST까지 기업 IR, KRX/KIND 공개 검색, 시장 데이터를 확인했다.
+> 미확인 항목: 9월 9일 국내 ETF 장전 최종 공지, 9월 8일 미국장 현물·거래량, Whale Insight 최신 상세 변동, 후보별 정확한 조정 이동평균, Robin의 2026-06-23 이후 실제 매매는 확인하지 못했다.
 
 ## 1. 09:00/15:30에서 넘어온 후보
 
 | 후보 | 넘어온 이유 | 심화 결과 |
 |---|---|---|
-| ANET | AI networking 수요와 9월 8일 행사 확인 | 193.78달러로 20DMA 부근까지 회복했다. 행사 발언과 197 돌파를 함께 확인한다. |
+| ANET / APH | AVGO networking 수요가 주문과 거래량으로 확산되는지 확인 | ANET은 20DMA 경계, APH는 세 추세선 위다. 9월 8일 미국장과 ANET 행사 발언을 함께 확인한다. |
 | BKR / PWR | AI 전력 수요의 orders·backlog·현금흐름 전환 확인 | BKR은 세 추세선 위, PWR은 세 추세선 아래로 Thesis와 Timing이 갈린다. |
 | APH / ALAB | AI interconnect 병목 심화 | APH는 추세선 위지만 확정 돌파가 없고, ALAB는 +9.8%에도 50DMA 아래다. |
 | MU | 보유 메모리 노출 교차 검증 | 이미 보유 ETF·RMBS와 중복되므로 신규 후보가 아닌 수요 확인용 Watch다. |
+| IRDM | 보유 RKLB의 인수 승인·자금조달·희석 위험 확인 | 신규 후보가 아니라 `Owned but Re-rated`의 RKLB Kill Condition을 검증하는 이벤트 변수다. |
 | 15:30 인계 | 국내장 종가 수급 | 15:30 슬롯이 없어 추가 인계가 없으며 국내 실시간 수급을 추정하지 않았다. |
 
 ## 2. New Thesis Candidates
@@ -35,7 +36,7 @@
 
 | 구분 | ETF/바스켓 | 역할 | 판단 |
 |---|---|---|---|
-| 다음 거래일 신규 국내 ETF | 없음 | 2026-09-08 Money Flow 확인 | KRX/KIND 공개 검색 기준 확인된 신규상장 없음; 09:00 장전 재확인 |
+| 다음 거래일 신규 국내 ETF | 없음 | 2026-09-09 Money Flow 확인 | KRX/KIND 공개 검색 기준 확인된 신규상장 없음; 09:00 장전 재확인 |
 | AI connectivity | ANET / ALAB / APH / MRVL / COHR / LITE | AVGO형 병목 바스켓 | 편입은 Money Flow 신호일 뿐 매수 근거가 아니다. |
 | AI power/grid | BKR / PWR / GEV / VRT / FIX / ETN | 전력 supercycle 바스켓 | orders·backlog의 현금흐름 전환을 별도 검증한다. |
 
@@ -47,20 +48,13 @@
 - `Timing`: BKR·APH는 추세선 위이나 확정 돌파가 없고, ANET은 20DMA 경계, ALAB·PWR은 50DMA 아래라 `thesis OK, timing wait`다.
 - `제외할 과열/뉴스성 흐름`: ALAB 하루 +9.8%, AVGO 실적, ETF 편입, 단순 낙폭만으로 매수하지 않는다.
 
-### Whale Insight Flow Check
-
-- 국민연금 미국 13F와 국내 DART 5%/10% 주요주주 최신 상세 변동은 안정적으로 검증하지 못했다.
-- 기관의 networking·power/grid 반복 노출이 주문·가이던스·현금흐름과 동시에 강화될 때만 `confirming signal`로 본다.
-- 기관 보유만 있고 사업 근거가 없으면 `ignore/noise`, 추세선 괴리가 크면 `watch, not chase`다.
-- 13F·DART는 후행 공시이며 이번 실행에서 신규 후보를 만드는 확정 Flow 신호는 없다.
-
 ## 4. Tomorrow ETF Launches
 
 | ETF | 운용사 | 테마 | 상장일 | 주요 보유/대표 종목 | Thesis Score | 예상 자금 흐름 |
 |---|---|---|---|---|---:|---|
-| 없음 | 없음 | 없음 | 2026-09-08 | 없음 | 0 | 확인된 신규 ETF발 직접 자금 유입 신호 없음 |
+| 없음 | 없음 | 없음 | 2026-09-09 | 없음 | 0 | 확인된 신규 ETF발 직접 자금 유입 신호 없음 |
 
-확인 기준: 다음 국내 거래일은 2026-09-08 화요일이다. 2026-09-07 13:20 KST 기준 KRX/KIND 신규상장 공개 페이지와 공개 검색에서 해당일 신규 ETF 상장 공지를 확인하지 못했다. 늦은 공시는 다음 09:00 장전에 재확인한다.
+확인 기준: 다음 국내 거래일은 2026-09-09 수요일이다. 2026-09-08 13:30 KST 기준 KRX/KIND 신규상장 공개 페이지와 공개 검색에서 해당일 신규 ETF 상장 공지를 확인하지 못했다. 늦은 공시는 다음 09:00 장전에 재확인한다.
 
 ## 5. ETF Holdings Reverse Analysis
 
@@ -69,7 +63,14 @@
 - 단독주가 단기선 아래이거나 고객집중 위험이 클 때 ETF 바스켓이 종목 고유 위험을 낮춘다.
 - ETF 편입은 `Money Flow 신호`일 뿐 매수 근거가 아니다. 고객·주문·가이던스·추세·Risk/Reward를 별도 통과해야 한다.
 
-## 6. Top 후보 Dashboard
+## 6. Whale Insight Flow Check
+
+- `국민연금/주요주주 Flow`: 미국 13F와 국내 DART 5%/10% 주요주주 최신 상세 변동은 이번 실행에서 안정적으로 검증하지 못했다.
+- `Thesis 후보로 볼 신호`: networking·power/grid 반복 노출이 주문·가이던스·현금흐름 강화와 동시에 나타날 때만 `confirming signal`로 본다.
+- `경고 또는 제외할 신호`: 기관 보유만 있고 사업 근거가 없으면 `ignore/noise`, 추세선 괴리가 크면 `watch, not chase`다.
+- `후행성/미확인 항목`: 13F·DART는 후행 공시이며 이번 실행에서 신규 후보를 만드는 확정 Flow 신호는 없다.
+
+## 7. Top 후보 Dashboard
 
 | 종목 | Thesis Score | 단기 추세선: 종가 / 20DMA / 21EMA / 50DMA | 진입 조건 | Why Not Buy Today |
 |---|---:|---|---|---|
@@ -87,7 +88,7 @@
 - ALAB: 322 돌파 후 310 재지지 진입, 300 손절, 366 이상 목표일 때 1:3. Kill Condition은 Scorpio ramp 지연·고객집중 심화 또는 282 이탈. Catalyst는 Scorpio·Taurus 양산이다.
 - PWR: 647 회복 후 진입, 620 손절, 728 이상 목표일 때 1:3. Kill Condition은 backlog quality 악화·프로젝트 지연 또는 603 이탈. Catalyst는 utility/data-center 수주다.
 
-## 7. Hidden Gems
+## 8. Hidden Gems
 
 | 후보 | 왜 미래의 PLTR/AVGO/RKLB 후보인가 | 확인할 근거 | 리스크 / Why Not Buy Today |
 |---|---|---|---|
@@ -96,15 +97,16 @@
 | MRVL | custom silicon과 optical 연결을 함께 잡으면 차세대 AVGO형 connectivity 후보가 될 수 있다. | 고객별 성장, 가이던스, 20DMA 재지지 | 추세선 복구 전 AI 반등을 추격하지 않는다. |
 | DDOG | AI observability가 기업 운영 표준으로 확장되면 소프트웨어판 PLTR형 compounder가 될 수 있다. | 공식 가이던스, 대형고객, 새 base | 20DMA 회복 전 사업 잠재력과 약한 Timing을 분리한다. |
 
-## 8. Owned but Re-rated
+## 9. Owned but Re-rated
 
 - `AVGO`: 신규 랭킹 제외. 공식 Q3 실적으로 Thesis는 `강화`지만 357.90달러가 20DMA 약 378.3 아래라 Red Timing Alert다.
 - `RKLB`: 신규 랭킹 제외. 발사 실행력은 유지되지만 64.26달러가 20DMA 약 71.8 아래여서 Red Timing Alert다.
+- `RKLB/IRDM`: 인수 승인·자금조달·희석 조건은 보유 Thesis의 Upcoming Catalyst이자 Kill Condition 점검 항목이며, IRDM을 신규 랭킹에 올리지 않는다.
 - `PLTR`: 신규 랭킹 제외. 174.11달러가 20DMA 약 176.8 아래로 되밀려 추가매수 Timing이 아니다.
 - `NVDA/TSM/RMBS/NVTS/GLW/RXT/DRAM/국내 AI ETF`: 신규 랭킹 제외. Money Flow 비교 또는 보유 관리 대상이다.
 - `CRDO/ETN`: 매도 완료. 재진입 Watch는 가능하지만 신규 Top 5에는 넣지 않는다.
 
-## 9. Thesis Top 5 Ranking
+## 10. Thesis Top 5 Ranking
 
 1. BKR - Money Flow 20/20, Thesis 30/30, Stock 13/15, Timing 13/20, Risk/Reward 10/15 = 86. orders·RPO·FCF와 추세선 위 흐름이 가장 잘 정렬됐다.
 2. APH - Money Flow 19/20, Thesis 29/30, Stock 14/15, Timing 12/20, Risk/Reward 9/15 = 83. 세 추세선 위지만 분할 후 base와 거래량 확인이 필요하다.
@@ -112,24 +114,24 @@
 4. ALAB - Money Flow 20/20, Thesis 29/30, Stock 14/15, Timing 3/20, Risk/Reward 3/15 = 69. 급반등으로 Timing이 개선됐지만 50DMA와 고객집중 위험이 남는다.
 5. PWR - Money Flow 20/20, Thesis 28/30, Stock 13/15, Timing 3/20, Risk/Reward 4/15 = 68. 구조적 grid Thesis와 약한 Timing을 분리한다.
 
-## 10. Upcoming Catalysts
+## 11. Upcoming Catalysts
 
 | 날짜 | 종목/테마 | 이벤트 | Thesis 영향 |
 |---|---|---|---|
-| 2026-09-08 09:00 KST | 국내 ETF | 신규상장 장전 공지 재확인 | 현재 기준 없음. 공지가 나와도 Money Flow 신호로만 반영한다. |
+| 2026-09-09 09:00 KST | 국내 ETF | 신규상장 장전 공지 재확인 | 현재 기준 없음. 공지가 나와도 Money Flow 신호로만 반영한다. |
 | 2026-09-08 23:50 ET | ANET | Goldman Sachs Communacopia + Technology Conference | cloud AI 수요와 1.6T 제품 채택을 확인한다. |
 | 2026-09-10 13:15 ET | ANET | Citi Global TMT Conference | cloud/AI networking 수요 지속성을 확인한다. |
 | 다음 기업 업데이트 | BKR / PWR / APH / ALAB | power awards·backlog 전환·Q3 성장·제품 ramp | 매출·마진·현금흐름 전환을 본다. |
 
-## 11. 다음 09:00 Watch 반영
+## 12. 다음 09:00 Watch 반영
 
 1. Watch 순서는 `BKR/APH/ANET/ALAB/PWR`로 두고 전부 `매수 아님, 조건 대기`로 표시한다.
 2. BKR 63 지지·65 돌파, APH 82 지지·84 돌파, ANET 194 재지지·197 돌파와 거래량을 확인한다.
 3. ALAB는 300 재지지와 322 돌파 전 +9.8% 급등을 추격하지 않고 332 부근 50DMA 회복을 별도 확인한다.
 4. PWR는 647 회복 전 낙폭 매수하지 않는다.
-5. 2026-09-08 국내 신규 ETF는 현재 `없음`으로 반영하고 KRX/KIND 장전 공지를 재확인한다.
+5. 2026-09-09 국내 신규 ETF는 현재 `없음`으로 반영하고 KRX/KIND 장전 공지를 재확인한다.
 
-## 12. 확인 근거 링크
+## 13. 확인 근거 링크
 
 - [Arista Networks 공식 IR·행사 일정](https://investors.arista.com/)
 - [Broadcom FY2026 Q3 공식 실적](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial)
