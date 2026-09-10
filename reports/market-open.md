@@ -1,87 +1,86 @@
-# 2026-09-09 장시작 Thesis 리포트
+# 2026-09-10 장시작 Thesis 리포트
 
 목적: 내가 가진 종목이 오늘도 들고갈 만한가?
 
-> 오늘 결론: `핵심 AI 인프라·전력·지수 포지션은 오늘도 들고갈 만하다.` 유가·금리 부담 속 자금이 소프트웨어보다 반도체·데이터센터 설비로 좁아졌으므로, NVDA 약세를 Thesis 훼손으로 오인하지 말고 AVGO·TSM·GLW 강세도 추격하지 않는다.
-> 지금 할 일: 국내 AI전력 ETF는 20DMA 위에서 기존분만 보유하고, 381180의 20DMA 회복을 확인한다. 신규자금은 SGOV 또는 VOO·SPYM의 소액 분할로 제한한다.
-> 건드리지 말 것: GLW·SATL의 하루 급등, IONQ·RGTI 반등, 국내 AI ETF의 강한 갭을 새 고객·주문 증거 없이 매수 근거로 쓰지 않는다. PL·RKLB·RXT도 가격 하락만 보고 물타기하지 않는다.
-> 가격 기준: 미국주는 2026-09-08 15:55 ET 부근 가격, 한국 보유 ETF·국내주는 2026-09-08 종가 기준이다. 20DMA는 Yahoo Finance 조정 일봉 최근 20개 평균 근사치이며 미국 최종 종가는 소폭 다를 수 있다.
-> 뉴스 기준: 2026-09-08 00:30 KST 이후 2026-09-09 05:45 KST까지 시장·기업 뉴스를 확인했다.
-> 미확인 항목: 미국장 최종 5분·공식 종가, 9월 9일 한국장 iNAV·수급, ETF 구성 변화, `INFQ/FLY/BRUN/AMBO/KEEL` 정확 상장 데이터, 2026-06-23 이후 실제 매매는 미확인이다.
+> 오늘 결론: `핵심 AI 인프라·메모리·전력·지수 포지션은 오늘도 들고갈 만하다.` 다만 Brent 100달러 돌파와 미 국채금리 상승으로 위험예산은 줄이고, 20DMA 아래 종목은 Thesis가 살아 있어도 추가매수하지 않는다.
+> 지금 할 일: SGOV는 대기자금만 분할하고, VOO·SPYM은 20DMA 회복 확인 뒤 소액만 접근한다. 국내 AI전력·반도체 ETF는 기존분만 보유하며 장중 iNAV·20DMA를 확인한다.
+> 건드리지 말 것: GLW·DRAM의 강세를 추격하거나 RKLB·PL·양자·NVTS의 하락을 싸다는 이유로 물타기하지 않는다. AVGO·PLTR도 20DMA 회복 전 증액하지 않는다.
+> 가격 기준: 미국 보유주는 Yahoo Finance chart API 기준 2026-09-09 정규장 종가와 조정종가 최근 20개 평균, 한국 종목은 2026-09-09 종가 기준이다.
+> 뉴스 기준: 2026-09-09 05:45 KST 이후 2026-09-10 08:20 KST까지 시장·기업 뉴스와 공식 IR 일정을 확인했다.
+> 미확인 항목: 9월 10일 한국장 실시간 iNAV·수급, TSMC 8월 매출 결과, 국내 ETF 구성 변화, `INFQ/FLY/BRUN/AMBO/KEEL` 정확 상장 데이터, 2026-06-23 이후 실제 매매는 미확인이다.
 
 ## 1. Overnight Money Flow
 
-- `Money Flow`: Brent 약 98달러, 미국 10년물 약 4.8%로 S&P 500은 약 -0.5%였지만 AI 반도체·데이터센터 수혜주는 상대 우위였다. 생성형 AI 경쟁 우려로 소프트웨어는 약했다. 흐름은 `AI compute/custom silicon -> foundry/networking -> optical/memory -> power`다.
-- `Thesis`: NVDA·TSM·AVGO의 AI 인프라 수요와 전력·메모리 병목을 깨는 고객 상실·주문 취소·가이던스 하향은 확인되지 않았다. PLTR 약세는 멀티플·Timing 변화이지 사업 Thesis 파손 증거가 아니다.
-- `Stock`: 가장 선명한 표현은 TSM·AVGO·NVDA와 분산 반도체·AI전력 ETF다. GLW는 optical 보조축이지만 하루 +7.9%를 추격할 구간은 아니다. 우주·양자 소형주는 후순위다.
-- `Timing`: TSM +2.4%, AVGO +2.6%, GLW +7.9%, RKLB +2.6%였고 NVDA -2.2%, PLTR -2.4%, PL -1.6%였다. 새 사업 근거가 없는 등락은 가격/타이밍 변화로만 처리한다.
+- `Money Flow`: Brent가 100달러를 넘고 미국 10년물 금리가 2023년 11월 이후 최고권으로 오르며 S&P 500은 하락했다. 반면 필라델피아 반도체지수는 +0.4%로 상대 우위를 보여 자금은 광범위한 성장주보다 `AI compute·메모리·연결·전력 병목`에 선택적으로 남았다.
+- `Thesis`: NVIDIA의 최근 분기 매출 +106% YoY, Broadcom FY26 Q3 매출 +86%와 Q4 가이던스, TSMC 7월까지 누적 매출 +37%는 AI 인프라 수요를 지지한다. 밤사이 핵심 고객 상실·주문 취소·가이던스 하향은 확인되지 않았다. 가격 약세는 Thesis 약화가 아니라 매크로·Timing 경고다.
+- `Stock`: 가장 직접적인 보유 표현은 NVDA·TSM·AVGO와 반도체·메모리·AI전력 ETF다. DRAM·GLW는 상대강도가 좋지만 이익 보호가 우선이다. 우주·양자 소형주는 변동성과 자금조달 위험이 커 후순위다.
+- `Timing`: NVDA 223.65달러(+1.3% vs 20DMA), TSM 433.90달러(+2.9%)는 단기선 위다. AVGO 363.76달러(-2.5%), PLTR 170.15달러(-3.6%), RKLB 63.92달러(-9.0%), PL 17.32달러(-18.5%)는 아래다.
 
 ## 2. 보유 종목 Dashboard
 
 | 그룹 | 종목 | 액션 | 이유 |
 |---|---|---|---|
-| 오늘 매수 가능 | SGOV | 대기자금만 분할 | 현금성 완충; 고유가·금리 변동 위험을 낮춘다. |
-| 오늘 매수 가능 | VOO, SPYM | 소액 분할 | 고베타 집중 완화 목적의 자산배분이다. |
-| 보유만 | NVDA, TSM, AVGO | 핵심 보유 | AI compute·foundry·networking Thesis 유지. 강세 추격 금지. |
-| 보유만 | 국내 AI전력 ETF 4종 | 기존분 유지 | 487240·491820·487230·0117V0 모두 20DMA 위다. |
-| 보유만 | 국내 반도체·메모리 ETF 4종 | 중복 증액 금지 | 446770·0181B0·0167A0는 20DMA 위, 381180만 아래다. |
-| 보유만 | DRAM, GLW | 보유, 이익보호 | Memory·optical Thesis 유지; GLW 급등 추격 금지. |
-| 보유만 | PLTR, GOOGL | 기존분 유지 | 사업 변화 미확인; 소프트웨어 멀티플 압박과 분리한다. |
-| 보유만 | SPYG, QQQM, SCHD | 자산배분 유지 | 지수·배당 sleeve 역할 유지. |
-| 보유만 | LY, GRAB, AGNC, 리츠 ETF 2종 | 확대 없이 유지 | 비핵심·금리민감 sleeve다. |
-| 축소 후보 | RMBS, RKLB, RXT | 반등 시 일부 축소 | 최근 20DMA 아래; 새 주문 없는 반등은 정리 기회다. |
-| 축소 후보 | PL, SATL, FLY | 급등·반등 시 축소 | PL 단기선 이탈, SATL +15%는 새 수주 확인 전 가격 신호다. |
-| 축소 후보 | DXYZ, CONY, Mirae Asset, KODEX 증권 | 구조적 축소 | NAV·분배·중복 위험은 하루 가격으로 해소되지 않는다. |
-| 관찰만 | IONQ, RGTI, NVTS | 물타기 금지 | 반등보다 상용화·수주·현금흐름 확인이 먼저다. |
-| 관찰만 | ABCL, XOVR | 신규자금 금지 | 임상·사모자산 구조 위험을 가격과 분리한다. |
-| 관찰만 | INFQ, BRUN, AMBO, KEEL | 확대 금지 | 정확한 상장·사업·가격 데이터 미확인이다. |
+| 오늘 매수 가능 | SGOV | 대기자금만 분할 | 100.49달러, 20DMA +0.1%; 고유가·금리 변동 완충 목적이다. |
+| 오늘 매수 가능 | VOO, SPYM | 20DMA 회복 시 소액 분할 | 각각 20DMA -0.7%; 집중 완화 목적이며 공격 매수는 아니다. |
+| 보유만 | NVDA, TSM | 핵심 보유, 추격 금지 | 20DMA 위이고 AI compute·foundry Thesis 유지. |
+| 보유만 | AVGO, RMBS, DRAM, GLW | 기존분 유지 | AVGO·RMBS는 20DMA 아래, DRAM·GLW는 +7.9%/+9.2% 위다. |
+| 보유만 | 국내 AI전력 ETF 4종, 반도체·메모리 ETF 4종 | 기존분 유지, 중복 증액 금지 | 전력·HBM Thesis는 유지되나 장중 iNAV·수급 확인 전 추가하지 않는다. |
+| 보유만 | PLTR, GOOGL | 기존분 유지 | 사업 훼손 증거는 없지만 20DMA -3.6%/-3.3%라 timing wait다. |
+| 보유만 | SPYG, QQQM, SCHD | 자산배분 역할 유지 | QQQM은 20DMA -0.1%, SCHD -1.7%; 신규 위험예산은 제한한다. |
+| 보유만 | LY, GRAB, AGNC, 리츠 ETF 2종 | 확대 없이 유지 | 비핵심·금리민감 sleeve로 우선순위가 낮다. |
+| 축소 후보 | RKLB, PL, SATL, FLY | 반등 시 일부 축소 | 확인 가능 종목은 20DMA -9.0%/-18.5%/-4.4%; 새 계약 없는 반등은 정리 기회다. |
+| 축소 후보 | RXT, RMBS | 20DMA 회복 실패 시 축소 | -5.9%/-3.3% vs 20DMA; 사업 Thesis와 약한 가격 구조를 분리한다. |
+| 축소 후보 | DXYZ, CONY, Mirae Asset, KODEX 증권 | 구조적 비중 점검 | NAV·분배·중복·비핵심 위험은 하루 가격으로 해소되지 않는다. |
+| 관찰만 | IONQ, RGTI, NVTS | 물타기 금지 | 20DMA -7.2%/-5.6%/-7.2%; 상용화·수주·현금흐름 증거가 먼저다. |
+| 관찰만 | ABCL, XOVR, INFQ, BRUN, AMBO, KEEL | 신규자금 금지 | 임상·사모자산·식별 데이터 위험으로 확신이 낮다. |
 | 관찰만 | TSLA residual | 잔여분만 유지 | active Thesis 포지션이 아니다. |
 
 ## 3. 오늘 반드시 확인할 가격/뉴스 트리거 5개
 
-1. `NVDA/TSM/AVGO`: 장 마감 직전 225.35/439.07/367.24달러다. NVDA의 20DMA 방어, TSM·AVGO의 갭 유지와 거래량을 보되 새 주문 없이 추격하지 않는다.
-2. `국내 AI전력`: 487240 37,005원·491820 44,230원·487230 19,980원·0117V0 19,245원이 20DMA(약 35,743/42,771/19,706/18,635원)를 지키고 iNAV·수급이 동행하는지 본다.
-3. `국내 반도체·메모리`: 381180 41,490원이 20DMA 약 42,383원을 회복하는지, 나머지 ETF 강세가 삼성전자·SK하이닉스 거래량과 함께 유지되는지 본다.
-4. `RMBS/RKLB/PL`: 86.83/65.93/17.84달러 부근이다. 20DMA 회복과 고객·계약 뉴스가 중요하며 PL 약세 지속 시 축소 우선순위를 높인다.
-5. `유가·금리/미국 물가`: Brent 100달러 접근, 미 10년물 4.8% 상회 또는 PPI·CPI 재가속 시 고베타 추가매수를 중단하고 SGOV·지수로 위험예산을 옮긴다.
+1. `NVDA/TSM/AVGO`: 20DMA 220.80/421.55/373.02달러를 기준으로 본다. NVDA·TSM은 지지, AVGO는 회복해야 하며 새 주문 없이 추격하지 않는다.
+2. `TSMC 8월 매출`: 9월 10일 13:30 대만시간 공식 발표에서 AI/HPC 수요가 7월까지 누적 +37% 흐름을 잇는지 본다. 큰 둔화면 관련 보유 Thesis 경고로 연결한다.
+3. `국내 AI전력·반도체 ETF`: 전력 4종과 반도체·메모리 4종이 전일 20DMA를 지키는지, iNAV와 기관·외국인 수급이 동행하는지 본다. 갭 상승만으로 증액하지 않는다.
+4. `RKLB/PL`: 63.92/17.32달러가 20DMA 70.24/21.24달러를 회복하지 못하면 Red Timing을 유지한다. 계약·수주 변화 없는 반등은 Thesis 강화가 아니다.
+5. `Brent/미 10년물/물가`: Brent 100달러 상단 고착과 금리 추가 상승, PPI·CPI 재가속이 겹치면 지수 신규매수도 멈추고 SGOV로 대기한다.
 
 ## 4. 단기 추세선 / Alert
 
 | 종목 | 단기 추세선 | Alert | 액션 |
 |---|---|---|---|
-| VOO / SPYM / SGOV | 직전 20DMA 부근 | Yellow Macro | 소액 분할만 |
-| NVDA / TSM / AVGO | NVDA 방어 확인 / TSM 상단 / AVGO 회복 시도 | Yellow | 핵심 보유, 추격 금지 |
-| RMBS / GLW / DRAM | RMBS 아래 / GLW·DRAM 위 | Red Timing / Yellow | RMBS 축소, 급등 추격 금지 |
-| PLTR / GOOGL | 20DMA 부근~아래 | Yellow | Thesis 유지, 증액 대기 |
-| RKLB / PL / SATL | RKLB·PL 아래 / SATL 급반등 | Red Timing | 반등 시 축소 |
-| IONQ / RGTI / NVTS | 20DMA 아래 구간 반등 | Yellow~Red | 물타기 금지 |
-| AGNC / CONY / RXT | 금리·구조 / 단기선 약세 | Yellow~Red | 확대 금지 |
-| 국내 AI전력 ETF | +1.4~+3.5% vs 20DMA | Yellow: 과열 확인 | 기존분만 유지 |
-| 국내 반도체·메모리 ETF | -2.1~+5.0% vs 20DMA | Yellow | 381180 회복 확인 |
-| 리츠 ETF / Mirae Asset | 20DMA 부근~아래 | Yellow | 비핵심 규율 유지 |
-| INFQ / FLY / BRUN / AMBO / KEEL | 미확인 | Data Alert | 관찰만 |
+| SGOV / VOO / SPYM | +0.1% / -0.7% / -0.7% vs 20DMA | No Alert~Yellow | SGOV만 분할, 지수는 회복 확인 |
+| NVDA / TSM / AVGO | +1.3% / +2.9% / -2.5% | Yellow | 핵심 보유, AVGO timing wait |
+| RMBS / DRAM / GLW | -3.3% / +7.9% / +9.2% | Yellow | RMBS 축소 관찰, 강세 추격 금지 |
+| PLTR / GOOGL | -3.6% / -3.3% | Yellow | Thesis 유지, 증액 대기 |
+| RKLB / PL / SATL | -9.0% / -18.5% / -4.4% | Red Timing | 반등 시 축소 우선 |
+| IONQ / RGTI / NVTS | -7.2% / -5.6% / -7.2% | Red Timing | 물타기 금지 |
+| RXT / AGNC / CONY | -5.9% / -1.6% / +2.3% | Yellow~Red | 구조·현금흐름 확인 전 확대 금지 |
+| QQQM / SCHD | -0.1% / -1.7% | Yellow | 자산배분 유지 |
+| 국내 AI전력·반도체 ETF | 9월 9일 종가, 장중 재확인 필요 | Yellow Data | 기존분만 유지 |
+| INFQ / FLY / BRUN / AMBO / KEEL | 정확 데이터 미확인 | Data Alert | 관찰만 |
 
 ## 5. 보유 Thesis에 영향을 줄 외부 Watch 후보
 
-- `QCOM/AMZN`: custom AI chip 계약이 AVGO·NVDA의 수요 확대인지 경쟁 심화인지 확인한다.
-- `MU`: RMBS·DRAM·국내 메모리 ETF의 HBM 수요를 교차 검증한다.
-- `ANET/APH`: networking·interconnect 지출이 AVGO·GLW로 확산되는지 본다.
-- `BKR/PWR`: 고유가와 전력망 capex가 국내 AI전력 ETF의 실제 orders·backlog로 이어지는지 본다.
+- `BKR/PWR`: 고유가와 전력 수요가 orders·RPO·backlog로 전환되는지 확인해 국내 AI전력 ETF를 검증한다.
+- `ANET/APH`: AI networking·interconnect 지출이 AVGO·GLW·RMBS로 확산되는지 본다.
+- `MU`: DRAM·RMBS·TSM과 국내 메모리 ETF의 HBM 수요·가격을 교차 검증한다.
+- `IRDM`: RKLB 인수 관련 승인·자금조달·희석 조건이 보유 Thesis를 바꾸는지 확인한다.
 - `삼성전자·SK하이닉스`: 국내 반도체·메모리 ETF의 실제 수급과 HBM 흐름을 확인한다.
 
 ## 6. 15:30에 확인할 질문
 
 | 질문 | 확인 이유 | 관련 종목 |
 |---|---|---|
-| 국내 AI전력 ETF가 갭을 지우지 않고 20DMA·iNAV·기관/외국인 수급을 함께 지켰나? | 지속 Flow와 하루 과열 구분 | 국내 AI전력 ETF |
-| 381180이 42,383원 부근을 회복하고 삼성전자·SK하이닉스가 동행했나? | ETF Timing과 HBM Thesis 분리 | 국내 반도체·메모리 ETF |
-| 원유·환율·금리 상승이 리츠·AGNC와 고베타 성장주의 위험예산을 더 압박했나? | 매크로 전염 확인 | AGNC, 리츠, 고베타 보유주 |
-| QCOM·AMZN custom chip 뉴스가 NVDA·AVGO의 고객·주문 Thesis를 실제로 바꿨나? | 경쟁 뉴스와 사업 훼손 분리 | NVDA, AVGO, TSM |
-| 신규 고베타 추격 없이 핵심 보유·중복 축소·SGOV 규율을 지켰나? | 행동 규율 확인 | 전체 포트폴리오 |
+| 국내 AI전력·반도체 ETF가 20DMA와 iNAV를 지키고 기관·외국인 수급이 동행했나? | 지속 Money Flow와 하루 갭을 구분한다. | 국내 AI ETF 8종 |
+| TSMC 8월 매출이 AI/HPC 수요와 누적 성장 흐름을 확인했나? | 가격이 아니라 사업 Thesis 변화 여부를 판단한다. | TSM, NVDA, AVGO, 반도체 ETF |
+| Brent 100달러와 금리 상승이 리츠·AGNC·고베타 성장주의 위험예산을 더 압박했나? | 매크로 전염과 개별 Thesis 훼손을 분리한다. | AGNC, 리츠, 우주·양자 |
+| AVGO·PLTR·RKLB가 20DMA 회복을 시도했나, 거래량 없는 반등에 그쳤나? | thesis OK, timing wait 유지 여부를 정한다. | AVGO, PLTR, RKLB |
+| 신규 추격 없이 SGOV 대기·핵심 보유·구조 취약 종목 축소 규율을 지켰나? | 행동 규율을 다음 22:00 점검으로 넘긴다. | 전체 포트폴리오 |
 
 ## 7. 확인 근거
 
-- [미국장 유가·지수 흐름(AP)](https://apnews.com/article/d3d6157a534584985987f828a940cffa)
-- [AI 반도체·소프트웨어 자금 이동(Reuters 재게시)](https://www.marketscreener.com/news/s-p-500-falls-as-ai-worries-hit-software-makers-ce785bd8d08bf22c)
-- [Yahoo Finance 가격·20DMA 계산 원천](https://finance.yahoo.com/)
+- [AP: 9월 9일 유가 100달러와 미국 증시 하락](https://apnews.com/article/d1284eb72934a3b076c14449bc087fbd)
+- [Reuters 재게시: 유가·국채금리 상승과 시장 흐름](https://www.marketscreener.com/news/oil-treasury-yields-turn-higher-as-stocks-falter-ce785bd9d088f321)
+- [NVIDIA FY2027 Q2 공식 실적](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx)
 - [Broadcom FY2026 Q3 공식 실적](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial)
+- [TSMC 2026 월별 매출 및 발표 일정](https://investor.tsmc.com/english/monthly-revenue/2026)
+- [Yahoo Finance 가격·20DMA 계산 원천](https://finance.yahoo.com/)
